@@ -176,7 +176,7 @@
         },
         {
             "question": "(Velocidad × Tiempo)/Distancia resulta en:",
-            "options": ["1 (sin dimensiones)", "L", "T⁻¹", "LT", "ML"],
+            "options": ["1", "L", "T⁻¹", "LT", "ML"],
             "answer": "a",
             "explicacion": "(LT⁻¹ × T)/L = L/L = 1"
         },
