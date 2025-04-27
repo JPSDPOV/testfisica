@@ -206,7 +206,7 @@
         },
         {
             "question": "Velocidad × tiempo = ?",
-            "options": ["L (distancia)", "LT⁻¹", "L²T", "MLT⁻²", "T²"],
+            "options": ["L", "LT⁻¹", "L²T", "MLT⁻²", "T²"],
             "answer": "a",
             "explicacion": "[v][t] = LT⁻¹ × T = L"
         }
