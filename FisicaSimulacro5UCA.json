@@ -1,1 +1,101 @@
 
+{
+    "questions": [
+        {
+            "question": "Una cuerda de 20 N (g = 10 m/s²) se levanta a partir del reposo por medio de una fuerza constante y vertical F = 30 N. La velocidad que adquiere al alcanzar una altura de 1,6 m es igual a:",
+            "options": ["\\(\\sqrt{32} \\) m/s", "\\(\\sqrt{240} \\) m/s", "\\(4 \\) m/s", "\\(20 \\) m/s", "\\(5 \\) m/s"],
+            "answer": "c",
+            "explicacion": "Masa = 20 N/10 m/s² = 2 kg. Fuerza neta = 30 N - 20 N = 10 N. Aceleración = 10 N/2 kg = 5 m/s². Usando \\(v^2 = 2ad = 2*5*1.6 = 16\\) → \\(v = 4\\) m/s."
+        },
+        {
+            "question": "Para que una cuerda de 1 utm adquiera una aceleración de 9,8 m/s² se le debe aplicar una fuerza igual a:",
+            "options": ["9,8 N", "1 kgf", "9,8 kgf", "9,8 dyn", "son A y B correctas"],
+            "answer": "c",
+            "explicacion": "1 utm = 9.8 kg. Fuerza = masa × aceleración = 9.8 kg × 9.8 m/s² = 96.04 N = 9.8 kgf (1 kgf = 9.8 N)."
+        },
+        {
+            "question": "En el sistema indicado en la figura, una cuerda ligera que une a los cuerpos de A y B, pasa sobre una polea de masa despreciable y sin fricción, siendo las masas de los cuerpos, m<sub>A</sub> = 5 kg y m<sub>B</sub> = 3,5 kg. Se abandona el sistema a partir del reposo. La aceleración del sistema es igual a:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1UPrrQELLFzK-3e0L3B6hy_BRdCDzU0zt",
+            "options": ["1,73 m/s²", "9,8 m/s²", "3,46 m/s²", "5,76 m/s²", "17,2 m/s²"],
+            "answer": "a",
+            "explicacion": "Aceleración = \\(\\frac{(m_A - m_B)g}{m_A + m_B} = \\frac{(5-3.5)9.8}{8.5} ≈ 1.73\\) m/s²"
+        },
+        {
+            "question": "Un cuerpo de 4 kg de masa se desliza sobre una superficie perfectamente lisa, como indica la figura, mediante una fuerza F = 20 N, que forma un ángulo α = 36,9° con la horizontal (g = 10m/s²). La aceleración del sistema es igual a:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1UNIthIdB1_evCGDoQ9IA1lTo6J0ys2wy",
+            "options": ["4 m/s²", "3 m/s²", "6 m/s²", "8 m/s²", "10 m/s²"],
+            "answer": "a",
+            "explicacion": "Componente horizontal: F_x = 20 N × cos(36.9°) ≈ 16 N. Aceleración = 16 N/4 kg = 4 m/s²"
+        },
+        {
+            "question": "La reacción del apoyo es de:",
+            "options": ["30 N", "12 N", "28 N", "42 N", "24 N"],
+            "answer": "c",
+            "explicacion": "Fuerza vertical: F_y = 20 N × sin(36.9°) ≈ 12 N. Reacción normal = Peso - F_y = (4 kg × 10 m/s²) - 12 N = 28 N"
+        },
+        {
+            "question": "La posición de una partícula de 1 kg de masa que se mueve a lo largo de una recta está descrita por: s = 2 + 5t -4t² (en el SI). El módulo de la fuerza resultante sobre la partícula es igual a:",
+            "options": ["- 8 N", "4 N", "- 4 N", "2 N", "8 N"],
+            "answer": "e",
+            "explicacion": "Aceleración = segunda derivada de posición = -8 m/s². Fuerza = 1 kg × | -8 | = 8 N"
+        },
+        {
+            "question": "Un cuerpo de peso P se encuentra en movimiento, unido a una cuerda. Si se estira hacia arriba de la cuerda con una fuerza igual a 1/4 P, se afirma que la aceleración del cuerpo es igual a:",
+            "options": ["1/4 g, hacia abajo", "3/4 g, hacia abajo", "1/4 g, hacia arriba", "3/4 g, hacia arriba", "cero"],
+            "answer": "b",
+            "explicacion": "Fuerza neta = P - (1/4 P) = 3/4 P hacia abajo. Aceleración = (3/4 P)/m = 3/4 g"
+        },
+        {
+            "question": "Un móvil de masa m, adquiere una aceleración a, ante la aplicación de una fuerza F. Para que, ante la aplicación de una fuerza igual a 3F, el cuerpo mantenga la misma aceleración, se le debe agregar una masa igual a:",
+            "options": ["3 m", "2 m", "1/3 m", "1/2 m", "3/2 m"],
+            "answer": "b",
+            "explicacion": "F = m·a → 3F = (m + Δm)·a → Δm = 2m"
+        },
+        {
+            "question": "Un tren parte del reposo recorre una distancia de 200 m en 10 s. La masa total del tren y sus vagones es de 1500 kg. La fuerza resultante sobre el tren es igual a:",
+            "options": ["1500 N", "750 N", "6000 N", "3000 N", "4500 N"],
+            "answer": "c",
+            "explicacion": "Usando \\(s = \\frac{1}{2}at^2\\) → \\(a = 4\\) m/s². Fuerza = 1500 kg × 4 = 6000 N"
+        },
+        {
+            "question": "Un camión de 3000 kg remolca a un automóvil por medio de un cabo de acero. La masa del automóvil es de 1000 kg. Si la aceleración del sistema es de 2 m/s² y despreciando todos los rozamientos posibles, la tensión en el cabo que une a dichos móviles es igual a:",
+            "options": ["6000 N", "8000 N", "2000 N", "1000 N", "500 N"],
+            "answer": "c",
+            "explicacion": "Tensión = masa del automóvil × aceleración = 1000 kg × 2 = 2000 N"
+        },
+        {
+            "question": "Los cuerpos A y B se levantan hacia arriba con una aceleración de 2 m/s², por medio de una fuerza F. Si m<sub>a</sub> = 4 kg y m<sub>b</sub> = 3 kg, la tensión de la cuerda que une a los cuerpos A y B es igual a:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1UJWqRaahGixMuzj8NtD3JBCZ1I2tIgIc",
+            "options": ["6 N", "29,4 N", "35,4 N", "23,4 N", "14 N"],
+            "answer": "c",
+            "explicacion": "Tensión = m_B(g + a) = 3 kg × (9.8 + 2) = 35.4 N"
+        },
+        {
+            "question": "Un chofer de 100 kgf de peso viaja en un automóvil de 1512 kg de masa que se desplaza a 108 km/h, cuando aplica los frenos y se detiene en 200 m. La fuerza que el cinturón ejerce sobre el chofer durante la frenada es de:",
+            "options": ["2250 N", "3402 N", "3627 N", "225 N", "1750 N"],
+            "answer": "d",
+            "explicacion": "Velocidad = 30 m/s. \\(a = v^2/(2d) = 2.25\\) m/s². Fuerza = (100 kg)(2.25) = 225 N"
+        },
+        {
+            "question": "Se aplica al conjunto una fuerza F = 12 N. La fuerza de contacto entre los cuerpos A y B es igual a:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1U7g-0XJrdgmCoiD0TsgYiyugzp-9iizT",
+            "options": ["1,2 N", "4 N", "8 N", "6 N", "10 N"],
+            "answer": "b",
+            "explicacion": "Aceleración = F/(m_A + m_B) = 12/3 = 4 m/s². Fuerza en B = 1 kg × 4 = 4 N"
+        },
+        {
+            "question": "Aceleración del sistema suponiendo nulos los rozamientos:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1UHn1VuP7idrWqN_tEn5sipIJuLefH41x",
+            "options": ["2 g", "1/3 g", "3 g", "1/2 g", "g"],
+            "answer": "b",
+            "explicacion": "Aceleración = \\(\\frac{m_2}{m_1 + m_2}g = \\frac{1}{3}g\\) (masas en relación 2:1)"
+        },
+        {
+            "question": "Al cuerpo de 5 kg se le aplica una fuerza vertical F = 80 N. La aceleración con que se mueve es igual a:",
+            "imageURL": "https://drive.google.com/thumbnail?id=1U4aZf36mnH2-TZPM0wpKtzYtHujz1bFg",
+            "options": ["16 m/s²", "4 m/s²", "6 m/s²", "8 m/s²", "3 m/s²"],
+            "answer": "c",
+            "explicacion": "Fuerza neta = 80 N - (5 kg × 10 m/s²) = 30 N. Aceleración = 30 N/5 kg = 6 m/s²"
+        }
+    ]
+}
