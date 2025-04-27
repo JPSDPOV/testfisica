@@ -2,315 +2,75 @@
     "questions": [
         {
             "question": "La resultante de dos fuerzas perpendiculares tiene una intensidad de 25 N. Si una de las fuerzas es de 15 N, la otra fuerza vale:",
-            "options": [
-                "10 N",
-                "15 N",
-                "20 N",
-                "25 N",
-                "30 N"
-            ],
+            "options": ["10 N", "15 N", "20 N", "25 N", "30 N"],
             "answer": "c",
-            "explicacion": "Usando Pitágoras: 25² = 15² + F² → F = 20 N"
+            "explicacion": "Aplicando Pitágoras: 25² = 15² + F² → F = √(625 - 225) = √400 = 20 N"
         },
         {
-            "question": "Dos fuerzas de 5 N y 7 N actúan sobre un punto material. La intensidad de la fuerza resultante es:",
-            "options": [
-                "Igual a 12",
-                "Menor que 5 N",
-                "Mayor que 5 N y menor que 12 N",
-                "Comprendida entre 2 N y 12 N",
-                "Igual a 2 N"
-            ],
+            "question": "Dos fuerzas de 5 N y 7 N, respectivamente, actúan sobre un punto material. La intensidad de la fuerza resultante es",
+            "options": ["Igual a 12", "Menor que 5 N", "Mayor que 5 N y menor que 12 N", "Comprendida entre 2 N y 12 N", "Igual a 2 N"],
             "answer": "d",
             "explicacion": "Rango de resultante: |7-5| ≤ R ≤ 7+5 → 2 N ≤ R ≤ 12 N"
         },
         {
-            "question": "Dos vectores colineales con resultante 14 N (mismo sentido) y 2 N (sentidos opuestos). Resultante ortogonal:",
-            "options": [
-                "100 N",
-                "15 N",
-                "8 N",
-                "12 N",
-                "10 N"
-            ],
-            "answer": "e",
-            "explicacion": "Sean vectores A y B: A+B=14, A-B=2 → A=8, B=6. Resultante ortogonal: √(8²+6²)=10 N"
-        },
-        {
-            "question": "Si |A + B| = A - B, el ángulo entre vectores es:",
-            "options": [
-                "60°",
-                "120°",
-                "180°",
-                "0°",
-                "90°"
-            ],
+            "question": "Si el módulo de la suma de dos vectores A y B se obtiene por la expresión A - B, entonces el ángulo entre ellos vale:",
+            "options": ["60°", "120°", "180°", "0°", "90°"],
             "answer": "c",
-            "explicacion": "La resultante igual a la resta ocurre cuando θ=180° (vectores opuestos)"
+            "explicacion": "La igualdad |A + B| = A - B solo se cumple cuando los vectores son colineales y opuestos (θ=180°)"
         },
         {
-            "question": "Vectores ortogonales 3:4 con resultante 10. Menor vector:",
-            "options": [
-                "16 u",
-                "6 u",
-                "4 u",
-                "8 u",
-                "10 u"
-            ],
+            "question": "Los vectores A y B, ortogonales, están en relación 3:4. Si el módulo del vector resultante es de 10 unidades. El vector de menor valor vale:",
+            "options": ["16 unidades", "6 unidades", "4 unidades", "8 unidades", "10 unidades"],
             "answer": "b",
-            "explicacion": "√(3k² + 4k²)=10 → k=2 → Vectores 6 y 8"
+            "explicacion": "Sean 3k y 4k los vectores. Por Pitágoras: (3k)² + (4k)² = 10² → k=2 → Menor vector: 3*2=6"
         },
         {
-            "question": "Vectores 1:2 con resultante doble del menor. Ángulo:",
-            "options": [
-                "140°",
-                "30°",
-                "104°",
-                "135°",
-                "45°"
-            ],
+            "question": "Dos vectores están en relación 1:2. El módulo de su resultante es el doble del módulo del vector menor, entonces el ángulo entre los vectores vale aproximadamente:",
+            "options": ["140°", "30°", "104°", "135°", "45°"],
             "answer": "c",
-            "explicacion": "R² = a² + (2a)² + 2a(2a)cosθ → (2a)² = 5a² + 4a²cosθ → θ≈104°"
+            "explicacion": "Usando ley de cosenos: (2a)² = a² + (2a)² + 2(a)(2a)cosθ → θ≈104°"
         },
         {
-            "question": "Ángulo de resultante con vector menor (M=5N, N=8N, θ=120°):",
-            "options": [
-                "55,6°",
-                "90°",
-                "86,3°",
-                "64,4°",
-                "75°"
-            ],
+            "question": "El ángulo formado por dos vectores M y N es de 120°. El módulo del vector M es de 5 N y el módulo del vector N es de 8 N. Calcular el ángulo que la resultante forma con el vector de menor módulo.",
+            "options": ["55,6°", "90°", "86,3°", "64,4°", "75°"],
             "answer": "d",
-            "explicacion": "R=√(5²+8²+2*5*8*cos120°)=7 N. tanα=(8*sen120°)/(5+8*cos120°)→α≈64.4°"
+            "explicacion": "Resultante R=√(5²+8²+2*5*8*cos120°)=7 N. Ángulo con vector menor: tanα=(8*sen120°)/(5+8*cos120°)≈64.4°"
         },
         {
-            "question": "Vectores 7 y 9 m. Posible resultante:",
-            "options": [
-                "1 m",
-                "2 m",
-                "5 m",
-                "16 m",
-                "18 m"
-            ],
-            "answer": "c",
-            "explicacion": "Resultante posible: 9-7 < R < 9+7 → 2 < R < 16. Solo 5 cumple"
-        },
-        {
-            "question": "Vectores 7N y 8N con resultante 13N. Ángulo:",
-            "options": [
-                "60°",
-                "30°",
-                "53°",
-                "45°",
-                "37°"
-            ],
+            "question": "Las magnitudes de dos vectores son 7 N y 8 N. Ambos dan como origen a un vector de magnitud 13 N. Hallar el ángulo que forman los vectores.",
+            "options": ["60°", "30°", "53°", "45°", "37°"],
             "answer": "a",
-            "explicacion": "13²=7²+8²+2*7*8*cosθ → cosθ=0.5 → θ=60°"
+            "explicacion": "Aplicando ley de cosenos: 13²=7²+8²+2*7*8*cosθ → cosθ=0.5 → θ=60°"
         },
         {
-            "question": "Resultante máxima=34u, mínima=14u. Resultante perpendicular:",
-            "options": [
-                "13",
-                "34",
-                "17",
-                "41",
-                "26"
-            ],
+            "question": "La resultante de dos vectores es de 34 unidades cuando ambos forman 0° y de 14 unidades cuando forman 180°. Calcular la resultante cuando los vectores son perpendiculares.",
+            "options": ["13", "34", "17", "41", "26"],
             "answer": "e",
-            "explicacion": "A+B=34, A-B=14 → A=24, B=10. Resultante ⊥: √(24²+10²)=26"
+            "explicacion": "Resolviendo: A+B=34 y A-B=14 → A=24, B=10. Resultante ⊥: √(24²+10²)=26"
         },
         {
-            "question": "Suma máxima=28u en relación 4:3. Mayor vector:",
-            "options": [
-                "4 u",
-                "8 u",
-                "16 u",
-                "48 u",
-                "32 u"
-            ],
+            "question": "Si la suma máxima de dos vectores es 28 u y los módulos de los vectores están en relación 4:3. Calcula el módulo del mayor.",
+            "options": ["4 u", "8 u", "16 u", "48 u", "32 u"],
             "answer": "c",
-            "explicacion": "4k + 3k = 28 → k=4 → Vectores 16 y 12"
+            "explicacion": "4k + 3k = 28 → k=4 → Mayor vector: 4*4=16"
         },
         {
-            "question": "Resultante ⊥=10N, suma máxima=14. Módulo suma mínima:",
-            "options": [
-                "8 N",
-                "4 N",
-                "0 N",
-                "2 N",
-                "6 N"
-            ],
+            "question": "Dos vectores cuando forman 90° tienen como resultante 10 N. La suma máxima de ambos vectores es 14. Hallar el módulo de la suma mínima, sabiendo que los vectores son números naturales y pares consecutivos.",
+            "options": ["8 N", "4 N", "0 N", "2 N", "6 N"],
             "answer": "d",
-            "explicacion": "Vectores pares: 8 y 6. Suma mínima=8-6=2 N"
+            "explicacion": "Vectores pares consecutivos: 8 y 6. Suma mínima=8-6=2 N"
         },
         {
-            "question": "Vectores iguales con resultante mitad. Ángulo:",
-            "options": [
-                "151°",
-                "138,6°",
-                "180°",
-                "90°",
-                "29°"
-            ],
+            "question": "Los vectores A y B tienen módulos iguales y el vector suma de ellos tiene de módulo a la mitad del módulo de los vectores. ¿Cuál es el valor aproximado del ángulo que forman los vectores para cumplir esa condición?.",
+            "options": ["151°", "138,6°", "180°", "90°", "29°"],
             "answer": "a",
-            "explicacion": "(A/2)² = A² + A² + 2A²cosθ → cosθ=-7/8 → θ≈151°"
+            "explicacion": "(A/2)² = 2A² + 2A²cosθ → cosθ=-7/8 → θ≈151°"
         },
         {
-            "question": "Desplazamiento: 15N, 5E, 3S. Distancia final:",
-            "options": [
-                "12 km",
-                "13 km",
-                "14 km",
-                "15 km",
-                "16 km"
-            ],
+            "question": "Una persona sale de su casa en bicicleta, avanza al norte 15 km, luego va al este 5 km y por último 3 km al sur. ¿A cuántos km se encuentra su casa respecto a su posición final?",
+            "options": ["12 km", "13 km", "14 km", "15 km", "16 km"],
             "answer": "b",
-            "explicacion": "Componentes: N-S=12N, E=5E. Distancia=√(12²+5²)=13"
-        },
-        {
-            "question": "Vectores 3:1 con resultante doble del menor. Ángulo:",
-            "options": [
-                "45°",
-                "60°",
-                "0°",
-                "180°",
-                "120°"
-            ],
-            "answer": "d",
-            "explicacion": "(2k)² = (3k)² + k² + 2*3k*k*cosθ → θ=120°"
-        },
-        {
-            "question": "Dos vectores de 12N y 9N forman 60°. Resultante:",
-            "options": [
-                "15√3 N",
-                "21 N",
-                "3√37 N",
-                "18 N",
-                "10√5 N"
-            ],
-            "answer": "c",
-            "explicacion": "R=√(12²+9²+2*12*9*cos60°)=√333=3√37"
-        },
-        {
-            "question": "Vectores de 5N y 7N con ángulo desconocido. Resultante mínima:",
-            "options": [
-                "2 N",
-                "0 N",
-                "5 N",
-                "7 N",
-                "12 N"
-            ],
-            "answer": "a",
-            "explicacion": "Mínima resultante=7-5=2N (θ=180°)"
-        },
-        {
-            "question": "Tres vectores de igual módulo equilibrados a 120°. Módulo de cada uno:",
-            "options": [
-                "Iguales",
-                "Diferentes",
-                "Dos iguales",
-                "No se puede",
-                "Depende del ángulo"
-            ],
-            "answer": "a",
-            "explicacion": "Tres vectores iguales a 120° se equilibran (suma=0)"
-        },
-        {
-            "question": "Vector de 10N forma 30° con eje X. Componente X:",
-            "options": [
-                "5√3 N",
-                "5 N",
-                "10 N",
-                "8.66 N",
-                "7.5 N"
-            ],
-            "answer": "a",
-            "explicacion": "Fx=10*cos30°=5√3≈8.66N"
-        },
-        {
-            "question": "Dos vectores suman 25N (máxima) y 5N (mínima). Producto escalar:",
-            "options": [
-                "150 N²",
-                "125 N²",
-                "100 N²",
-                "75 N²",
-                "50 N²"
-            ],
-            "answer": "a",
-            "explicacion": "A+B=25, A-B=5 → A=15, B=10. Producto=ABcosθ=15*10*(25²-5²)/(2*15*10)=150"
-        },
-        {
-            "question": "Vector resultante de 8N al este y 6N al norte:",
-            "options": [
-                "10 N NE",
-                "14 N NE",
-                "5√2 N NE",
-                "2√7 N NE",
-                "12 N NE"
-            ],
-            "answer": "a",
-            "explicacion": "R=√(8²+6²)=10N, dirección tan⁻¹(6/8)=36.87° NE"
-        },
-        {
-            "question": "Ángulo entre vectores cuando resultante es √(A² + B²):",
-            "options": [
-                "0°",
-                "30°",
-                "60°",
-                "90°",
-                "180°"
-            ],
-            "answer": "d",
-            "explicacion": "Resultante=√(A²+B²) ocurre cuando θ=90°"
-        },
-        {
-            "question": "Dos vectores de 10N cada uno. Resultante mínima:",
-            "options": [
-                "0 N",
-                "5 N",
-                "10 N",
-                "20 N",
-                "15 N"
-            ],
-            "answer": "a",
-            "explicacion": "Mínima resultante=10-10=0N (θ=180°)"
-        },
-        {
-            "question": "Vector de 50N con componentes ortogonales iguales. Componente:",
-            "options": [
-                "25√2 N",
-                "25 N",
-                "50 N",
-                "35.35 N",
-                "30√3 N"
-            ],
-            "answer": "a",
-            "explicacion": "Componentes iguales: 50=√(x²+x²)→x=25√2"
-        },
-        {
-            "question": "Tres fuerzas: 3N este, 4N norte, 5N oeste. Resultante:",
-            "options": [
-                "√2 N SO",
-                "2N NE",
-                "1N NO",
-                "√5 N NE",
-                "0 N"
-            ],
-            "answer": "c",
-            "explicacion": "Este-Oeste: 3-5=-2O; Norte:4N. R=√(2²+4²)=√20=2√5≈4.47N NO"
-        },
-        {
-            "question": "Dos vectores con resultante 24N. Diferencia 18N. Ángulo:",
-            "options": [
-                "30°",
-                "45°",
-                "60°",
-                "90°",
-                "120°"
-            ],
-            "answer": "c",
-            "explicacion": "R² + D²=2(A²+B²)→24²+18²=2(A²+B²)→A=15,B=9√3. cosθ=(24²-18²)/(2AB)=0.5→θ=60°"
-        }
+            "explicacion": "Componentes: Norte=15-3=12 km, Este=5 km. Distancia=√(12²+5²)=13 km"
+        }        
     ]
 }
