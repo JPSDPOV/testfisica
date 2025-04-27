@@ -1,0 +1,316 @@
+{
+    "questions": [
+        {
+            "question": "Hallar la ecuación dimensional de la constante universal G, siendo: F = G(m₁m₂)/r². Donde m₁ y m₂ son masas; F es fuerza y r es distancia.",
+            "options": [
+                "LMT",
+                "L³M⁻¹T⁻²",
+                "L³MT²",
+                "L³M⁻¹T²",
+                "LM"
+            ],
+            "answer": "b",
+            "explicacion": "[G] = [F][r²]/[m²] = (MLT⁻²)(L²)/(M²) = L³M⁻¹T⁻²"
+        },
+        {
+            "question": "KF = mv; donde m: masa; F: fuerza; v: velocidad. Determinar qué magnitud representa K.",
+            "options": [
+                "M",
+                "MT",
+                "ML⁻¹",
+                "T",
+                "T⁻¹"
+            ],
+            "answer": "d",
+            "explicacion": "[K] = [mv]/[F] = (M)(LT⁻¹)/(MLT⁻²) = T"
+        },
+        {
+            "question": "Kv = Ft, donde v: velocidad; F: fuerza; t: tiempo. ¿Qué magnitud representa K?",
+            "options": [
+                "M",
+                "MT",
+                "ML⁻¹",
+                "T",
+                "T⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "[K] = [Ft]/[v] = (MLT⁻²)(T)/(LT⁻¹) = M"
+        },
+        {
+            "question": "KF = mv², donde F: fuerza; m: masa; v: velocidad. ¿Qué magnitud representa K?",
+            "options": [
+                "M",
+                "L",
+                "ML⁻¹",
+                "T",
+                "T⁻¹"
+            ],
+            "answer": "b",
+            "explicacion": "[K] = [mv²]/[F] = (M)(L²T⁻²)/(MLT⁻²) = L"
+        },
+        {
+            "question": "Determinar las unidades de E en el SI: E = Dv²/g. Donde D: densidad; v: velocidad; g: aceleración.",
+            "options": [
+                "kg",
+                "m",
+                "kg/m",
+                "kg/m²",
+                "m²/kg"
+            ],
+            "answer": "d",
+            "explicacion": "[E] = [D][v²]/[g] = (ML⁻³)(L²T⁻²)/(LT⁻²) = ML⁻² → kg/m²"
+        },
+        {
+            "question": "¿Qué unidades debe tener x en P = dgy + ½xv²? Donde P: presión; d: densidad; g: aceleración; v: velocidad.",
+            "options": [
+                "kg",
+                "joule",
+                "g/cm²",
+                "kg/m³",
+                "newton"
+            ],
+            "answer": "d",
+            "explicacion": "[x] = [P]/[v²] = (ML⁻¹T⁻²)/(L²T⁻²) = ML⁻³ → kg/m³"
+        },
+        {
+            "question": "En Ax² + By³ = C, hallar [x/y] si A: velocidad; B: fuerza; C: aceleración.",
+            "options": [
+                "M¹/³T⁻¹/²",
+                "M²/³T²",
+                "M⁻²/³T⁻²",
+                "M¹/²T²",
+                "M¹/³T²"
+            ],
+            "answer": "a",
+            "explicacion": "A[x²] = C → [x] = T⁻¹/²; B[y³] = C → [y] = M⁻¹/³ → [x/y] = M¹/³T⁻¹/²"
+        },
+        {
+            "question": "Hallar unidades de A en E = AP/D + BC³. Donde E: fuerza; P: presión; D: densidad.",
+            "options": [
+                "kg/m",
+                "kg·m",
+                "kg·m/s",
+                "kg·m²",
+                "kg/m²"
+            ],
+            "answer": "a",
+            "explicacion": "[A] = [E][D]/[P] = (MLT⁻²)(ML⁻³)/(ML⁻¹T⁻²) = ML⁻¹ → kg/m"
+        },
+        {
+            "question": "Hallar [presión × volumen]/[temperatura] en términos dimensionales.",
+            "options": [
+                "ML²T⁻²θ⁻¹",
+                "MLT⁻²θ",
+                "ML⁻¹T⁻²θ⁻¹",
+                "M²LT⁻²θ⁻¹",
+                "ML²T⁻¹θ⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "(ML⁻¹T⁻²)(L³)/θ = ML²T⁻²θ⁻¹"
+        },
+        {
+            "question": "Si [potencia] = X[velocidad], hallar X.",
+            "options": [
+                "MLT⁻²",
+                "ML²T⁻³",
+                "MLT⁻¹",
+                "MT⁻¹",
+                "ML²T⁻²"
+            ],
+            "answer": "a",
+            "explicacion": "[Potencia] = ML²T⁻³ = X[LT⁻¹] → X = MLT⁻² (Fuerza)"
+        },
+        {
+            "question": "La viscosidad dinámica (η) tiene fórmula dimensional:",
+            "options": [
+                "ML⁻¹T⁻¹",
+                "MLT⁻²",
+                "ML⁻²T",
+                "M⁻¹L⁻¹T",
+                "ML⁻²T⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "η = Fuerza×tiempo/área → (MLT⁻²)(T)/L² = ML⁻¹T⁻¹"
+        },
+        {
+            "question": "El número de Reynolds es adimensional. Hallar la relación [velocidad][longitud][densidad]/[viscosidad].",
+            "options": [
+                "0",
+                "1",
+                "MLT",
+                "ML⁻³",
+                "LT⁻¹"
+            ],
+            "answer": "b",
+            "explicacion": "Re = (LT⁻¹)(L)(ML⁻³)/(ML⁻¹T⁻¹) = M⁰L⁰T⁰ = 1 (adimensional)"
+        },
+        {
+            "question": "Si [trabajo] = [calor], ¿qué magnitud es adimensional?",
+            "options": [
+                "Coef. dilatación",
+                "Energía",
+                "Calor específico",
+                "Equivalente mecánico",
+                "Densidad"
+            ],
+            "answer": "d",
+            "explicacion": "J = Q/W → [J] = [Q]/[W] = 1 (adimensional)"
+        },
+        {
+            "question": "Hallar [carga eléctrica] en términos de I (corriente).",
+            "options": [
+                "IT",
+                "IT⁻¹",
+                "I²T",
+                "IT²",
+                "I/T"
+            ],
+            "answer": "a",
+            "explicacion": "Q = I×t → [Q] = IT"
+        },
+        {
+            "question": "La constante de Planck (h) tiene fórmula dimensional:",
+            "options": [
+                "ML²T⁻¹",
+                "MLT⁻¹",
+                "ML²T⁻²",
+                "ML⁻¹T",
+                "M²LT⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "E = hν → [h] = [E]/[T⁻¹] = ML²T⁻²/T⁻¹ = ML²T⁻¹"
+        },
+        {
+            "question": "¿Qué magnitud tiene dimensión ML²T⁻²?",
+            "options": [
+                "Fuerza",
+                "Presión",
+                "Energía",
+                "Potencia",
+                "Velocidad"
+            ],
+            "answer": "c",
+            "explicacion": "Energía: ML²T⁻² (trabajo = fuerza × distancia)"
+        },
+        {
+            "question": "La constante elástica (k) tiene fórmula dimensional:",
+            "options": [
+                "MT⁻²",
+                "MLT⁻²",
+                "ML⁻¹T⁻²",
+                "ML²T⁻²",
+                "MLT⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "F = kx → [k] = [F]/[L] = MLT⁻²/L = MT⁻²"
+        },
+        {
+            "question": "Hallar [velocidad angular] × [tiempo]:",
+            "options": [
+                "Adimensional",
+                "T⁻¹",
+                "L",
+                "LT⁻¹",
+                "Ángulo plano"
+            ],
+            "answer": "a",
+            "explicacion": "[ω][t] = (T⁻¹)(T) = T⁰ = adimensional (radianes)"
+        },
+        {
+            "question": "Si P = ρgh, hallar [h] donde ρ: densidad; g: aceleración.",
+            "options": [
+                "L",
+                "ML⁻²",
+                "MT⁻²",
+                "MLT⁻²",
+                "ML⁻¹T⁻²"
+            ],
+            "answer": "a",
+            "explicacion": "[h] = [P]/([ρ][g]) = (ML⁻¹T⁻²)/(ML⁻³)(LT⁻²) = L"
+        },
+        {
+            "question": "La ecuación E = mc² es dimensionalmente homogénea. Hallar [E]:",
+            "options": [
+                "ML²T⁻²",
+                "MLT⁻²",
+                "ML⁻¹T⁻²",
+                "M²LT⁻²",
+                "ML²T⁻¹"
+            ],
+            "answer": "a",
+            "explicacion": "[E] = [m][c²] = M(LT⁻¹)² = ML²T⁻²"
+        },
+        {
+            "question": "¿Qué magnitud tiene dimensión ML⁻¹T⁻²?",
+            "options": [
+                "Densidad",
+                "Presión",
+                "Fuerza",
+                "Energía",
+                "Potencia"
+            ],
+            "answer": "b",
+            "explicacion": "Presión = fuerza/área → MLT⁻²/L² = ML⁻¹T⁻²"
+        },
+        {
+            "question": "Hallar [torque] en términos de fuerza y longitud:",
+            "options": [
+                "ML²T⁻²",
+                "MLT⁻²",
+                "ML⁻¹T⁻²",
+                "MLT⁻¹",
+                "M²LT⁻²"
+            ],
+            "answer": "a",
+            "explicacion": "Torque = F×d → (MLT⁻²)(L) = ML²T⁻²"
+        },
+        {
+            "question": "Si v² = 2ax, hallar [a] donde v: velocidad; x: longitud.",
+            "options": [
+                "LT⁻²",
+                "LT⁻¹",
+                "L²T⁻²",
+                "L²T⁻¹",
+                "T⁻²"
+            ],
+            "answer": "a",
+            "explicacion": "[a] = [v²]/[x] = (L²T⁻²)/L = LT⁻²"
+        },
+        {
+            "question": "La capacitancia (C) tiene fórmula dimensional:",
+            "options": [
+                "M⁻¹L⁻²T⁴I²",
+                "ML²T⁻³I⁻¹",
+                "MLT⁻²I⁻¹",
+                "ML²T⁻²I",
+                "M⁻¹L⁻²T³I"
+            ],
+            "answer": "a",
+            "explicacion": "C = Q/V → (IT)/(ML²T⁻³I⁻¹) = M⁻¹L⁻²T⁴I²"
+        },
+        {
+            "question": "¿Qué magnitud tiene dimensión LT⁻¹?",
+            "options": [
+                "Aceleración",
+                "Velocidad",
+                "Fuerza",
+                "Energía",
+                "Presión"
+            ],
+            "answer": "b",
+            "explicacion": "Velocidad = distancia/tiempo → LT⁻¹"
+        },
+        {
+            "question": "Hallar [trabajo]/[tiempo]:",
+            "options": [
+                "ML²T⁻³",
+                "MLT⁻²",
+                "ML⁻¹T⁻²",
+                "MT⁻²",
+                "ML²T⁻²"
+            ],
+            "answer": "a",
+            "explicacion": "[Potencia] = [Trabajo]/[Tiempo] = ML²T⁻³"
+        }
+    ]
+}
