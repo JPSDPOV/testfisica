@@ -49,30 +49,6 @@
             "explicacion": "s(2) = -5 + 3*2 = 1m; s(7) = -5 + 3*7 = 16m. Diferencia: 16m - 1m = 15m (MRU sin cambio de dirección)"
         },
         {
-            "question": "Un autobús sale de la estación de una ciudad, siguiendo una trayectoria rectilínea, con velocidad constante de 50 km/h. ¿Cuánto tiempo después de su partida deberá salir, de la misma estación, un segundo autobús con velocidad constante de 75 km/h, para alcanzar al primero a los 120 km de la ciudad?",
-            "options": [
-                "24 minutos",
-                "48 minutos",
-                "96 minutos",
-                "144 minutos",
-                "288 minutos"
-            ],
-            "answer": "b",
-            "explicacion": "Tiempo primer bus: 120km / 50km/h = 2.4h = 144min. Tiempo segundo bus: 120km / 75km/h = 1.6h = 96min. Diferencia: 144min - 96min = 48min"
-        },
-        {
-            "question": "Una escuela de zamba al desplazarse en la calle rectilínea muy extensa, mantiene una longitud constante de 2 km. Si tarda 90 minutos en pasar completamente un palco de 1 km de longitud, su velocidad media es de:",
-            "options": [
-                "1/3 km/h",
-                "2/3 km/h",
-                "3 km/h",
-                "2 km/h",
-                "2,5 km/h"
-            ],
-            "answer": "d",
-            "explicacion": "Para pasar completamente debe recorrer su propia longitud + longitud del palco: 2km + 1km = 3km. Velocidad = 3km / 1.5h = 2km/h"
-        },
-        {
             "question": "El chofer de un automóvil que marcha a razón de 13 m/s, ve a 150 m a otro auto que se acerca y luego de 6 s, ambos vehículos se cruzan. La velocidad con que se desplaza el segundo coche, en m/s, es igual a:",
             "options": [
                 "9",
@@ -286,18 +262,6 @@
                 "1500 m"
             ],
             "answer": "c",
-            "explicacion": ""
-        },
-        {
-            "question": "La posición de una partícula en movimiento está dada por s = b.t², siendo b = cte. La rapidez media en el lapso de tiempo comprendido entre 0 y t es igual a:",
-            "options": [
-                "2b.t",
-                "1/2b.t²",
-                "2b.t²",
-                "1/2b.t",
-                "b.t"
-            ],
-            "answer": "e",
             "explicacion": ""
         },
         {
