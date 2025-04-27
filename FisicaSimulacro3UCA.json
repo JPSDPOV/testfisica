@@ -287,6 +287,12 @@
             ],
             "answer": "a",
             "explicacion": "4V2 - V2=3V2 → solo posible si θ=0° (misma dirección)"
+        },
+        {
+            "question": "Los vectores P y Q guardan una relación de 3 a 1 entre sus módulos. Si el módulo de la resultante es igual al doble del módulo del vector menor. El valor del ángulo que forman entre sí los vectores es de:",
+            "options": ["45°", "60°", "0°", "180°", "120°"],
+            "answer": "d",
+            "explicacion": "(2k)² = (3k)² + k² + 2*3k*k*cosθ → cosθ=-0.5 → θ=120°"
         }
     ]
 }
