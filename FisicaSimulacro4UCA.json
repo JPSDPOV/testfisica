@@ -1,0 +1,352 @@
+{
+    "questions": [
+        {
+            "question": "Un móvil se desplaza en una vía recta con rapidez constante. En el tiempo t<sub>1</sub> = 0,5 s y t<sub>2</sub> = 1,5 s sus posiciones en la recta son s<sub>1</sub> = 8 m y s<sub>2</sub> = 12 m respectivamente. La posición del móvil en el instante t = 3 s es igual a:",
+            "options": [
+                "12 m",
+                "6 m",
+                "18 m",
+                "20 m",
+                "25 m"
+            ],
+            "answer": "c",
+            "explicacion": "Cálculo de velocidad: v = (s₂ - s₁)/(t₂ - t₁) = (12m - 8m)/(1.5s - 0.5s) = 4 m/s. Posición en t=3s: s = s₁ + v(t - t₁) = 8m + 4m/s*(3s - 0.5s) = 18m"
+        },
+        {
+            "question": "Un coche de carreras se halla a 900 m de la meta, en 6 s más se halla a 660 m. ¿En cuántos segundos más alcanza la meta?",
+            "options": [
+                "22,5 s",
+                "6 s",
+                "39 s",
+                "4,4 s",
+                "16,5 s"
+            ],
+            "answer": "e",
+            "explicacion": "Velocidad constante: v = (900m - 660m)/6s = 40 m/s. Tiempo restante: t = 660m / 40m/s = 16.5s"
+        },
+        {
+            "question": "Un motociclista debe llegar a su destino a las 10 AM. Si viaja a 15 km/h llegaría a la 1 PM y si viaja a 40 km/h llegaria a las 8 AM. ¿Con qué rapidez debe viajar para llegar a horario?",
+            "options": [
+                "24 km/h",
+                "20 km/h",
+                "25 km/h",
+                "30 km/h",
+                "26 km/h"
+            ],
+            "answer": "a",
+            "explicacion": "Sea D = distancia y T = tiempo ideal. Por datos: D = 15*(T + 3) y D = 40*(T - 2). Resolviendo: 15T + 45 = 40T - 80 → T = 5h. Velocidad requerida: v = D/T = 15*(5+3)/5 = 24 km/h"
+        },
+        {
+            "question": "Un móvil se desplaza a los largo de una trayectoria rectilínea de acuerdo a la ecuación s = -5 + 3t (en el SI). La distancia recorrida por el móvil entre t<sub>1</sub> = 2 s y t<sub>2</sub> = 7 s, es igual a:",
+            "options": [
+                "10 m",
+                "21 m",
+                "12 m",
+                "15 m",
+                "20 m"
+            ],
+            "answer": "d",
+            "explicacion": "s(2) = -5 + 3*2 = 1m; s(7) = -5 + 3*7 = 16m. Diferencia: 16m - 1m = 15m (MRU sin cambio de dirección)"
+        },
+        {
+            "question": "Un autobús sale de la estación de una ciudad, siguiendo una trayectoria rectilínea, con velocidad constante de 50 km/h. ¿Cuánto tiempo después de su partida deberá salir, de la misma estación, un segundo autobús con velocidad constante de 75 km/h, para alcanzar al primero a los 120 km de la ciudad?",
+            "options": [
+                "24 minutos",
+                "48 minutos",
+                "96 minutos",
+                "144 minutos",
+                "288 minutos"
+            ],
+            "answer": "b",
+            "explicacion": "Tiempo primer bus: 120km / 50km/h = 2.4h = 144min. Tiempo segundo bus: 120km / 75km/h = 1.6h = 96min. Diferencia: 144min - 96min = 48min"
+        },
+        {
+            "question": "Una escuela de zamba al desplazarse en la calle rectilínea muy extensa, mantiene una longitud constante de 2 km. Si tarda 90 minutos en pasar completamente un palco de 1 km de longitud, su velocidad media es de:",
+            "options": [
+                "1/3 km/h",
+                "2/3 km/h",
+                "3 km/h",
+                "2 km/h",
+                "2,5 km/h"
+            ],
+            "answer": "d",
+            "explicacion": "Para pasar completamente debe recorrer su propia longitud + longitud del palco: 2km + 1km = 3km. Velocidad = 3km / 1.5h = 2km/h"
+        },
+        {
+            "question": "El chofer de un automóvil que marcha a razón de 13 m/s, ve a 150 m a otro auto que se acerca y luego de 6 s, ambos vehículos se cruzan. La velocidad con que se desplaza el segundo coche, en m/s, es igual a:",
+            "options": [
+                "9",
+                "12",
+                "13",
+                "25",
+                "6,5"
+            ],
+            "answer": "b",
+            "explicacion": "Distancia relativa = 150m. Velocidad relativa = 150m / 6s = 25m/s. Velocidad segundo coche: 25m/s - 13m/s = 12m/s (acercamiento)"
+        },
+        {
+            "question": "Una mujer sale de su casa y camina para una tienda dando en promedio, un paso por segundo. Si el tamaño medio de su paso es de 0,5 m y ella emplea 10 minutos en el trayecto, la distancia entre su casa y la tienda es de:",
+            "options": [
+                "15 m",
+                "150 m",
+                "100 m",
+                "25 m",
+                "300 m"
+            ],
+            "answer": "e",
+            "explicacion": "Pasos totales = 10min * 60s/min * 1paso/s = 600 pasos. Distancia = 600pasos * 0.5m/paso = 300m"
+        },
+        {
+            "question": "Dos atletas están trotando en una pista de deportes. El primero se desplaza a 3 m/s y está 150 m por detrás de otro que trota a razón de 2 m/s. Si se mueven en una misma dirección y sentido, el tiempo en que el primero tarda en encontrarse 50 m más adelante que el segundo es igual a:",
+            "options": [
+                "50 s",
+                "200 s",
+                "30 s",
+                "150 s",
+                "40 s"
+            ],
+            "answer": "b",
+            "explicacion": "Diferencia de velocidad = 3m/s - 2m/s = 1m/s. Distancia a cubrir: 150m + 50m = 200m. Tiempo = 200m / 1m/s = 200s"
+        },
+        {
+            "question": "Mi tío y su suegro viajan desde una ciudad hasta la casa de un pariente. Parten simultáneamente desde el parque de la ciudad donde viven y llegan a destino con 15 minutos de diferencia. Desarrollan durante el viaje rapideces constantes de 40 km/h y 60 km/h. La distancia entre las dos ciudades es de:",
+            "options": [
+                "10 km",
+                "20 km",
+                "30 km",
+                "40 km",
+                "50 km"
+            ],
+            "answer": "c",
+            "explicacion": "Diferencia de tiempos = 15min = 0.25h. (d/40) - (d/60) = 0.25 → Multiplicando por 120: 3d - 2d = 30 → d=30km"
+        },
+        {
+            "question": "Un tren de longitud L marcha a 36 km/h. Considerando que los vagones son idénticos, al cruzar un puente se observa que con un vagón cruza en 5 s y con 2 vagones lo hace en 7 s. ¿En cuánto tiempo cruza el puente con 3 vagones?",
+            "options": [
+                "13 s",
+                "15 s",
+                "17 s",
+                "9 s",
+                "11 s"
+            ],
+            "answer": "d",
+            "explicacion": "Velocidad = 36km/h = 10m/s. 1 vagón: 10m/s*5s = L + puente. 2 vagones: 10m/s*7s = 2L + puente. Resolviendo: L=20m, puente=30m. 3 vagones: t = (3*20 + 30)/10 = 9s"
+        },
+        {
+            "question": "Un camión con sus acoplados tarda 5 s en pasar frente a un semáforo y 25 s en cruzar un puente de 300 m de longitud. La velocidad del camión es igual a:",
+            "options": [
+                "15 m/s",
+                "30 m/s",
+                "48 m/s",
+                "20 m/s",
+                "16 m/s"
+            ],
+            "answer": "a",
+            "explicacion": "Sea L = longitud camión. Velocidad v = L/5. Para el puente: 300 + L = v*25. Sustituyendo: 300 + 5v = 25v → 20v=300 → v=15m/s"
+        },
+        {
+            "question": "Dos ciudades A y B distan entre sí 400 km medidos a lo largo de una carretera rectilínea y una iglesia se encuentra entre ellas a 250 km de la ciudad A. Simultáneamente parten de dichas ciudades dos móviles y se desplazan con movimiento uniforme en sentidos contrarios, siendo la rapidez de A y de B de 30 km/h y 50 km/h respectivamente. La distancia de la iglesia a la cual se produce el encuentro es igual a",
+            "options": [
+                "150 km",
+                "250 km",
+                "50 km",
+                "100 km",
+                "300 km"
+            ],
+            "answer": "d",
+            "explicacion": "Tiempo encuentro = 400km/(30km/h+50km/h) = 5h. Distancia desde A: 30km/h*5h=150km. Distancia desde iglesia: 250km -150km=100km"
+        },
+        {
+            "question": "Un auto recorre 300 metros con MRU. Si la rapidez hubiera sido 10 m/s mayor, el tiempo empleado en recorrer dicha distancia hubiera sido la mitad. ¿Qué rapidez tiene el auto?",
+            "options": [
+                "40 m/s",
+                "50 m/s",
+                "12,5 m/s",
+                "25 m/s",
+                "10 m/s"
+            ],
+            "answer": "e",
+            "explicacion": "Ecuaciones: 300 = v*t y 300 = (v+10)*(t/2). Sustituyendo: 300 = (v+10)*(300/(2v)) → v=10m/s"
+        },
+        {
+            "question": "Sabiendo que la velocidad del sonido es de 340 m/s. ¿a cuántos metros de distancia se produce un trueno que tarda 6 segundos en oírse?",
+            "options": [
+                "1020 m",
+                "2040 m",
+                "4080 m",
+                "3060 m",
+                "510 m"
+            ],
+            "answer": "b",
+            "explicacion": "Distancia = velocidad*tiempo = 340m/s*6s = 2040m"
+        },
+        {
+            "question": "Un camión de 15 m de longitud, que se encuentra inicialmente en reposo, inicia su movimiento con aceleración constante, en el instante en que comienza a atravesar un túnel de 460 m de longitud. Si tarda 38 s en cruzarlo, la velocidad con que lo abandona es igual a:",
+            "options": [
+                "12,5 km/h",
+                "90 km/h",
+                "180 km/h",
+                "22,5 km/h",
+                "45 km/h"
+            ],
+            "answer": "b",
+            "explicacion": ""
+        },
+        {
+            "question": "Una partícula avanza en línea recta y su posición escalar viene dada por s = 9 - 12t + 4t² (en el SI). Su velocidad escalar al pasar por el origen es igual a:",
+            "options": [
+                "12 m/s",
+                "6 m/s",
+                "- 6 m/s",
+                "cero",
+                "- 12 m/s"
+            ],
+            "answer": "d",
+            "explicacion": ""
+        },
+        {
+            "question": "Un ratón se dirige a su madriguera en línea recta con una velocidad constante de 2 m/s. Cuando le faltan 5 m para llegar, pasa al lado de un gato que se encuentra en reposo. Si el gato acelera a razón de 2 m/s² en dirección del ratón, a qué distancia del agujero le alcanza?",
+            "options": [
+                "2 m",
+                "4 m",
+                "1 m",
+                "5 m",
+                "no le alcanza"
+            ],
+            "answer": "c",
+            "explicacion": ""
+        },
+        {
+            "question": "Un cuerpo describe un MRUV cuya aceleración es 2,5 m/s². En un determinado instante su velocidad es de 25 m/s. ¿Cuál fue su velocidad 6 segundos antes?",
+            "options": [
+                "10 m/s",
+                "15 m/s",
+                "3 m/s",
+                "2 m/s",
+                "12 m/s"
+            ],
+            "answer": "a",
+            "explicacion": ""
+        },
+        {
+            "question": "Un móvil que parte del reposo con aceleración constante recorre en 4 s una distancia de 32 m. La distancia que recorre en los 2 s siguientes es igual a:",
+            "options": [
+                "16 m",
+                "32 m",
+                "72 m",
+                "40 m",
+                "24 m"
+            ],
+            "answer": "d",
+            "explicacion": ""
+        },
+        {
+            "question": "La posición en función del tiempo de un móvil está dada por S = a . b.t². Se afirma que:<br>I) el movimiento es inicialmente retardado.<br>II) el cuerpo pasa por el origen en un tiempo \\(t= \\sqrt{\\frac{a}{b}} \\).<br>III) el cuerpo parte del reposo.<br>IV) la aceleración del movimiento es 2b.<br>Son correctas:",
+            "options": [
+                "I y III",
+                "solo II",
+                "solo III",
+                "II, III, IV",
+                "II y III"
+            ],
+            "answer": "e",
+            "explicacion": ""
+        },
+        {
+            "question": "La capataza de una estancia reparte leche en un carrito tirado por caballos, se desplaza con aceleración constante y cubre la distancia de 80 m, entre dos puestos, en 8 s. Su rapidez al pasar por el segundo puesto es de 15 m/s. La aceleración del movimiento es igual a:",
+            "options": [
+                "2,5 m/s²",
+                "0,625 m/s²",
+                "1,4 m/s²",
+                "1,25 m/s²",
+                "2 m/s²"
+            ],
+            "answer": "d",
+            "explicacion": ""
+        },
+        {
+            "question": "Para un móvil que cambia de posición, el desplazamiento escalar está dado por la ecuación Δs = 15t + 2,5t² (en el SI). La velocidad escalar media entre t = 2 s y t = 4 s, es igual a:",
+            "options": [
+                "10 m/s",
+                "20 m/s",
+                "30 m/s",
+                "40 m/s",
+                "60 m/s"
+            ],
+            "answer": "c",
+            "explicacion": ""
+        },
+        {
+            "question": "Un coche que parte del reposo acelera a 6 m/s² durante 10 s y luego desacelera a 3 m/s² hasta detenerse. La distancia total que recorre es igual a:",
+            "options": [
+                "300 m",
+                "600 m",
+                "900 m",
+                "1200 m",
+                "1500 m"
+            ],
+            "answer": "c",
+            "explicacion": ""
+        },
+        {
+            "question": "La posición de una partícula en movimiento está dada por s = b.t², siendo b = cte. La rapidez media en el lapso de tiempo comprendido entre 0 y t es igual a:",
+            "options": [
+                "2b.t",
+                "1/2b.t²",
+                "2b.t²",
+                "1/2b.t",
+                "b.t"
+            ],
+            "answer": "e",
+            "explicacion": ""
+        },
+        {
+            "question": "La ecuación de la velocidad escalar de un móvil es v = -3 + 4t (en el SI). La velocidad escalar media entre t₁ = 1 s y t₂ = 3 s es igual a:",
+            "options": [
+                "1 m/s",
+                "cero",
+                "9 m/s",
+                "5 m/s",
+                "- 18,5 m/s"
+            ],
+            "answer": "d",
+            "explicacion": ""
+        },
+        {
+            "question": "Un auto que se mueve a 40 m/s recorre 300 m y en ese trayecto disminuye uniformemente su velocidad hasta 10 m/s. A partir de entonces, la distancia que avanza hasta detenerse es igual a:",
+            "options": [
+                "25 m",
+                "10 m",
+                "40 m",
+                "80 m",
+                "20 m"
+            ],
+            "answer": "e",
+            "explicacion": ""
+        },
+        {
+            "question": "La ecuación del movimiento de un cuerpo es s = 6 + 2t + 4t², en el SI. Se afirma que durante el quinto segundo del movimiento recorre una distancia de:",
+            "options": [
+                "38 m",
+                "44 m",
+                "56 m",
+                "47 m",
+                "53 m"
+            ],
+            "answer": "a",
+            "explicacion": ""
+        },
+        {
+            "question": "Una moto puede mantener una aceleración constante de 2 m/s². La velocidad inicial del motociclista que, con esta moto, desea recorrer una distancia de 150 m hasta alcanzar una velocidad de 90 km/h es de:",
+            "options": [
+                "cero",
+                "5 m/s",
+                "20 m/s",
+                "15 m/s",
+                "20 m/s"
+            ],
+            "answer": "b",
+            "explicacion": ""
+        }
+    ]
+}
