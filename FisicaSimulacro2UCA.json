@@ -199,22 +199,10 @@
             "explicacion": "Perímetro es medida de longitud → L"
         },
         {
-            "question": "¿Qué dimensión tiene el tiempo?",
-            "options": ["T", "LT⁻¹", "ML", "ML²T⁻²", "M²L"],
-            "answer": "a",
-            "explicacion": "El tiempo es magnitud fundamental → T"
-        },
-        {
             "question": "Masa × aceleración = ?",
             "options": ["MLT⁻²", "ML²T⁻²", "MT⁻²", "LT⁻¹", "M²L"],
             "answer": "a",
             "explicacion": "[m][a] = M × LT⁻² = MLT⁻² (Fuerza)"
-        },
-        {
-            "question": "Si 1 minuto = 60 segundos, ¿qué relación dimensional tienen?",
-            "options": ["Igual dimensión (T)", "Diferente dimensión", "L/T", "MLT", "T²"],
-            "answer": "a",
-            "explicacion": "Ambos son tiempos → misma dimensión T"
         },
         {
             "question": "Velocidad × tiempo = ?",
