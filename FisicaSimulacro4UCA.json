@@ -289,18 +289,6 @@
             "explicacion": ""
         },
         {
-            "question": "La ecuación del movimiento de un cuerpo es s = 6 + 2t + 4t², en el SI. Se afirma que durante el quinto segundo del movimiento recorre una distancia de:",
-            "options": [
-                "38 m",
-                "44 m",
-                "56 m",
-                "47 m",
-                "53 m"
-            ],
-            "answer": "a",
-            "explicacion": ""
-        },
-        {
             "question": "Una moto puede mantener una aceleración constante de 2 m/s². La velocidad inicial del motociclista que, con esta moto, desea recorrer una distancia de 150 m hasta alcanzar una velocidad de 90 km/h es de:",
             "options": [
                 "cero",
