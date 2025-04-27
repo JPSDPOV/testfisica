@@ -1,308 +1,304 @@
 {
-    "topics": {
-        "Magnitudes": {
-            "questions": [
-                {
-                    "question": "Las siguientes magnitudes: <br> I) Peso <br> II) Intensidad de corriente eléctrica <br>III) Distancia recorrida <br> son respectivamente:",
-                    "options": [
-                        "escalar, vectorial, escalar",
-                        "vectorial, escalar, vectorial",
-                        "escalar, escalar, escalar",
-                        "vectorial, escalar, escalar",
-                        "escalar, escalar, vectorial"
-                    ],
-                    "answer": "d",
-                    "explicacion": "El peso es vectorial (tiene dirección y sentido), la intensidad de corriente es escalar (magnitud fundamental del SI), y la distancia recorrida es escalar (solo tiene magnitud)."
-                },
-                {
-                    "question": "¿Cuál de las siguientes opciones no representa una cantidad del SI?",
-                    "options": [
-                        "newton",
-                        "hertz",
-                        "joule",
-                        "pascal",
-                        "dina"
-                    ],
-                    "answer": "e",
-                    "explicacion": "La dina es unidad del sistema CGS (1 N = 10^5 dinas), no pertenece al Sistema Internacional."
-                },
-                {
-                    "question": "De las siguientes magnitudes, aquella que no es exclusivamente vectorial es: ",
-                    "options": [
-                        "fuerza",
-                        "aceleración",
-                        "velocidad",
-                        "longitud",
-                        "intensidad luminosa"
-                    ],
-                    "answer": "d",
-                    "explicacion": "La longitud es una magnitud escalar, solo requiere magnitud para ser descrita."
-                },
-                {
-                    "question": "¿Qué magnitud se mide en amperios?",
-                    "options": [
-                        "Voltaje",
-                        "Corriente eléctrica",
-                        "Potencia eléctrica",
-                        "Diferencia de potencial",
-                        "Resistencia eléctrica"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El amperio (A) es la unidad base del SI para intensidad de corriente eléctrica."
-                },
-                {
-                    "question": "¿Qué propiedad física se mide en joules?",
-                    "options": [
-                        "Trabajo",
-                        "Potencia",
-                        "Energía",
-                        "Fuerza",
-                        "A y C son correctas"
-                    ],
-                    "answer": "e",
-                    "explicacion": "El joule (J) mide tanto trabajo como energía (son conceptualmente equivalentes en física)."
-                },
-                {
-                    "question": "¿Qué relación existe entre la masa y el peso de un objeto?",
-                    "options": [
-                        "Peso = Masa × Gravedad",
-                        "Peso = Masa / Gravedad",
-                        "Peso = Masa + Gravedad",
-                        "Masa = Peso × Gravedad",
-                        "Masa = Gravedad / Peso"
-                    ],
-                    "answer": "a",
-                    "explicacion": "La relación está dada por P = m·g, donde g es la aceleración gravitatoria."
-                },
-                {
-                    "question": "Son unidades de medida de magnitudes fundamentales en Sistema Internacional",
-                    "options": [
-                        "masa, volumen, temperatura",
-                        "longitud, masa, tiempo",
-                        "metro, kilogramo, segundo",
-                        "kelvin, watt, voltio",
-                        "B y C son correctas"
-                    ],
-                    "answer": "c",
-                    "explicacion": "El metro (longitud), kilogramo (masa) y segundo (tiempo) son unidades base del SI."
-                },
-                {
-                    "question": "La densidad es la relación que existe entre:",
-                    "options": [
-                        "la masa y el peso",
-                        "el peso y el volumen",
-                        "la masa y la gravedad",
-                        "la gravedad y el volumen",
-                        "la masa y el volumen"
-                    ],
-                    "answer": "e",
-                    "explicacion": "Densidad = Masa/Volumen (ρ = m/V), unidad kg/m³ en SI."
-                },
-                {
-                    "question": "¿Qué magnitud se describe como la cantidad de materia en un objeto?",
-                    "options": [
-                        "masa",
-                        "peso",
-                        "gravedad",
-                        "volumen",
-                        "densidad"
-                    ],
-                    "answer": "a",
-                    "explicacion": "La masa es la medida de la cantidad de materia, unidad kilogramo (kg) en SI."
-                },
-                {
-                    "question": "Se dice que la gravedad en la luna es 1/6 de la gravedad en la tierra, entonces su valor aproximado en m/s² es:",
-                    "options": [
-                        "9,81",
-                        "10",
-                        "1,635",
-                        "58,86",
-                        "60"
-                    ],
-                    "answer": "c",
-                    "explicacion": "g_tierra ≈ 9.81 m/s² → g_luna = 9.81/6 ≈ 1.635 m/s²"
-                },
-                {
-                    "question": "¿Qué unidad se utiliza para medir la cantidad de sustancia en el Sistema Internacional?",
-                    "options": [
-                        "kilogramo",
-                        "mol",
-                        "gramo",
-                        "newton",
-                        "tonelada"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El mol (mol) es la unidad SI para cantidad de sustancia."
-                },
-                {
-                    "question": "La alternativa que presenta solo magnitudes derivadas está en:",
-                    "options": [
-                        "trabajo, fuerza, masa",
-                        "aceleración, longitud, velocidad",
-                        "potencia, fuerza eléctrica, peso",
-                        "masa, tiempo, longitud",
-                        "temperatura, presión, densidad"
-                    ],
-                    "answer": "c",
-                    "explicacion": "Potencia (W), fuerza eléctrica (N) y peso (N) son magnitudes derivadas."
-                },
-                {
-                    "question": "¿Qué característica define a una magnitud vectorial?",
-                    "options": [
-                        "Solo tiene módulo",
-                        "Tiene módulo, dirección y sentido",
-                        "Se mide en unidades escalares",
-                        "No se puede representar gráficamente",
-                        "Es siempre positiva"
-                    ],
-                    "answer": "b",
-                    "explicacion": "Las magnitudes vectoriales requieren módulo, dirección y sentido para definirse completamente."
-                },
-                {
-                    "question": "La longitud es una magnitud del sistema técnico que se mide en:",
-                    "options": [
-                        "kilómetros",
-                        "centímetros",
-                        "hectómetros",
-                        "milímetros",
-                        "metros"
-                    ],
-                    "answer": "e",
-                    "explicacion": "En el SI, la unidad base de longitud es el metro (m)."
-                },
-                {
-                    "question": "De las siguientes opciones, ¿Cuál es una magnitud escalar?:",
-                    "options": [
-                        "intensidad luminosa",
-                        "trabajo",
-                        "fuerza",
-                        "peso",
-                        "campo eléctrico"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El trabajo es escalar (producto escalar de fuerza y desplazamiento)."
-                },
-                {
-                    "question": "¿Qué magnitud derivada se obtiene al dividir fuerza entre área?",
-                    "options": [
-                        "Trabajo",
-                        "Presión",
-                        "Densidad",
-                        "Velocidad",
-                        "Potencia"
-                    ],
-                    "answer": "b",
-                    "explicacion": "Presión = Fuerza/Área (P = F/A), unidad pascal (Pa) en SI."
-                },
-                {
-                    "question": "¿Qué instrumento se utiliza para medir masas con precisión en laboratorio?",
-                    "options": [
-                        "Dinamómetro",
-                        "Balanza analítica",
-                        "Cronómetro",
-                        "Termómetro",
-                        "Calibrador Vernier"
-                    ],
-                    "answer": "b",
-                    "explicacion": "La balanza analítica mide masa con alta precisión, usando comparación de pesos."
-                },
-                {
-                    "question": "¿Cuál es la unidad SI de intensidad luminosa?",
-                    "options": [
-                        "Lumen",
-                        "Candela",
-                        "Lux",
-                        "Watt",
-                        "Voltio"
-                    ],
-                    "answer": "b",
-                    "explicacion": "La candela (cd) es la unidad base del SI para intensidad luminosa."
-                },
-                {
-                    "question": "¿Qué magnitud física tiene como unidad el watt?",
-                    "options": [
-                        "Energía",
-                        "Potencia",
-                        "Fuerza",
-                        "Presión",
-                        "Carga eléctrica"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El watt (W) mide potencia: 1 W = 1 J/s."
-                },
-                {
-                    "question": "¿Qué sistema de unidades utiliza el centímetro, gramo y segundo como base?",
-                    "options": [
-                        "SI",
-                        "CGS",
-                        "Inglés",
-                        "Métrico decimal",
-                        "Técnico"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El sistema CGS (Centímetro-Gramo-Segundo) fue precursor del SI."
-                },
-                {
-                    "question": "¿Qué magnitud tiene como unidad el coulomb?",
-                    "options": [
-                        "Corriente eléctrica",
-                        "Resistencia eléctrica",
-                        "Carga eléctrica",
-                        "Potencial eléctrico",
-                        "Capacitancia"
-                    ],
-                    "answer": "c",
-                    "explicacion": "El coulomb (C) es la unidad de carga eléctrica: 1 C = 1 A·s."
-                },
-                {
-                    "question": "¿Qué instrumento mide la diferencia de potencial eléctrico?",
-                    "options": [
-                        "Amperímetro",
-                        "Ohmímetro",
-                        "Voltímetro",
-                        "Galvanómetro",
-                        "Termopar"
-                    ],
-                    "answer": "c",
-                    "explicacion": "El voltímetro mide voltaje (diferencia de potencial), unidad voltio (V)."
-                },
-                {
-                    "question": "¿Qué magnitud se mide en teslas?",
-                    "options": [
-                        "Fuerza",
-                        "Campo magnético",
-                        "Frecuencia",
-                        "Inductancia",
-                        "Energía"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El tesla (T) es la unidad de densidad de flujo magnético: 1 T = 1 Wb/m²."
-                },
-                {
-                    "question": "¿Qué representa el prefijo 'kilo-' en el SI?",
-                    "options": [
-                        "10²",
-                        "10³",
-                        "10⁶",
-                        "10⁻³",
-                        "10⁻⁶"
-                    ],
-                    "answer": "b",
-                    "explicacion": "El prefijo kilo- indica 10³ (ej: 1 kg = 1000 g)."
-                },
-                {
-                    "question": "¿Qué magnitud es adimensional?",
-                    "options": [
-                        "Ángulo plano",
-                        "Fuerza",
-                        "Velocidad",
-                        "Masa",
-                        "Temperatura"
-                    ],
-                    "answer": "a",
-                    "explicacion": "El radián (unidad de ángulo) es adimensional: relación entre dos longitudes."
-                }
-            ]
+    "questions": [
+        {
+            "question": "Las siguientes magnitudes: <br> I) Peso <br> II) Intensidad de corriente eléctrica <br>III) Distancia recorrida <br> son respectivamente:",
+            "options": [
+                "escalar, vectorial, escalar",
+                "vectorial, escalar, vectorial",
+                "escalar, escalar, escalar",
+                "vectorial, escalar, escalar",
+                "escalar, escalar, vectorial"
+            ],
+            "answer": "d",
+            "explicacion": "El peso es vectorial (tiene dirección y sentido), la intensidad de corriente es escalar (magnitud fundamental del SI), y la distancia recorrida es escalar (solo tiene magnitud)."
+        },
+        {
+            "question": "¿Cuál de las siguientes opciones no representa una cantidad del SI?",
+            "options": [
+                "newton",
+                "hertz",
+                "joule",
+                "pascal",
+                "dina"
+            ],
+            "answer": "e",
+            "explicacion": "La dina es unidad del sistema CGS (1 N = 10^5 dinas), no pertenece al Sistema Internacional."
+        },
+        {
+            "question": "De las siguientes magnitudes, aquella que no es exclusivamente vectorial es: ",
+            "options": [
+                "fuerza",
+                "aceleración",
+                "velocidad",
+                "longitud",
+                "intensidad luminosa"
+            ],
+            "answer": "d",
+            "explicacion": "La longitud es una magnitud escalar, solo requiere magnitud para ser descrita."
+        },
+        {
+            "question": "¿Qué magnitud se mide en amperios?",
+            "options": [
+                "Voltaje",
+                "Corriente eléctrica",
+                "Potencia eléctrica",
+                "Diferencia de potencial",
+                "Resistencia eléctrica"
+            ],
+            "answer": "b",
+            "explicacion": "El amperio (A) es la unidad base del SI para intensidad de corriente eléctrica."
+        },
+        {
+            "question": "¿Qué propiedad física se mide en joules?",
+            "options": [
+                "Trabajo",
+                "Potencia",
+                "Energía",
+                "Fuerza",
+                "A y C son correctas"
+            ],
+            "answer": "e",
+            "explicacion": "El joule (J) mide tanto trabajo como energía (son conceptualmente equivalentes en física)."
+        },
+        {
+            "question": "¿Qué relación existe entre la masa y el peso de un objeto?",
+            "options": [
+                "Peso = Masa × Gravedad",
+                "Peso = Masa / Gravedad",
+                "Peso = Masa + Gravedad",
+                "Masa = Peso × Gravedad",
+                "Masa = Gravedad / Peso"
+            ],
+            "answer": "a",
+            "explicacion": "La relación está dada por P = m·g, donde g es la aceleración gravitatoria."
+        },
+        {
+            "question": "Son unidades de medida de magnitudes fundamentales en Sistema Internacional",
+            "options": [
+                "masa, volumen, temperatura",
+                "longitud, masa, tiempo",
+                "metro, kilogramo, segundo",
+                "kelvin, watt, voltio",
+                "B y C son correctas"
+            ],
+            "answer": "c",
+            "explicacion": "El metro (longitud), kilogramo (masa) y segundo (tiempo) son unidades base del SI."
+        },
+        {
+            "question": "La densidad es la relación que existe entre:",
+            "options": [
+                "la masa y el peso",
+                "el peso y el volumen",
+                "la masa y la gravedad",
+                "la gravedad y el volumen",
+                "la masa y el volumen"
+            ],
+            "answer": "e",
+            "explicacion": "Densidad = Masa/Volumen (ρ = m/V), unidad kg/m³ en SI."
+        },
+        {
+            "question": "¿Qué magnitud se describe como la cantidad de materia en un objeto?",
+            "options": [
+                "masa",
+                "peso",
+                "gravedad",
+                "volumen",
+                "densidad"
+            ],
+            "answer": "a",
+            "explicacion": "La masa es la medida de la cantidad de materia, unidad kilogramo (kg) en SI."
+        },
+        {
+            "question": "Se dice que la gravedad en la luna es 1/6 de la gravedad en la tierra, entonces su valor aproximado en m/s² es:",
+            "options": [
+                "9,81",
+                "10",
+                "1,635",
+                "58,86",
+                "60"
+            ],
+            "answer": "c",
+            "explicacion": "g_tierra ≈ 9.81 m/s² → g_luna = 9.81/6 ≈ 1.635 m/s²"
+        },
+        {
+            "question": "¿Qué unidad se utiliza para medir la cantidad de sustancia en el Sistema Internacional?",
+            "options": [
+                "kilogramo",
+                "mol",
+                "gramo",
+                "newton",
+                "tonelada"
+            ],
+            "answer": "b",
+            "explicacion": "El mol (mol) es la unidad SI para cantidad de sustancia."
+        },
+        {
+            "question": "La alternativa que presenta solo magnitudes derivadas está en:",
+            "options": [
+                "trabajo, fuerza, masa",
+                "aceleración, longitud, velocidad",
+                "potencia, fuerza eléctrica, peso",
+                "masa, tiempo, longitud",
+                "temperatura, presión, densidad"
+            ],
+            "answer": "c",
+            "explicacion": "Potencia (W), fuerza eléctrica (N) y peso (N) son magnitudes derivadas."
+        },
+        {
+            "question": "¿Qué característica define a una magnitud vectorial?",
+            "options": [
+                "Solo tiene módulo",
+                "Tiene módulo, dirección y sentido",
+                "Se mide en unidades escalares",
+                "No se puede representar gráficamente",
+                "Es siempre positiva"
+            ],
+            "answer": "b",
+            "explicacion": "Las magnitudes vectoriales requieren módulo, dirección y sentido para definirse completamente."
+        },
+        {
+            "question": "La longitud es una magnitud del sistema técnico que se mide en:",
+            "options": [
+                "kilómetros",
+                "centímetros",
+                "hectómetros",
+                "milímetros",
+                "metros"
+            ],
+            "answer": "e",
+            "explicacion": "En el SI, la unidad base de longitud es el metro (m)."
+        },
+        {
+            "question": "De las siguientes opciones, ¿Cuál es una magnitud escalar?:",
+            "options": [
+                "intensidad luminosa",
+                "trabajo",
+                "fuerza",
+                "peso",
+                "campo eléctrico"
+            ],
+            "answer": "b",
+            "explicacion": "El trabajo es escalar (producto escalar de fuerza y desplazamiento)."
+        },
+        {
+            "question": "¿Qué magnitud derivada se obtiene al dividir fuerza entre área?",
+            "options": [
+                "Trabajo",
+                "Presión",
+                "Densidad",
+                "Velocidad",
+                "Potencia"
+            ],
+            "answer": "b",
+            "explicacion": "Presión = Fuerza/Área (P = F/A), unidad pascal (Pa) en SI."
+        },
+        {
+            "question": "¿Qué instrumento se utiliza para medir masas con precisión en laboratorio?",
+            "options": [
+                "Dinamómetro",
+                "Balanza analítica",
+                "Cronómetro",
+                "Termómetro",
+                "Calibrador Vernier"
+            ],
+            "answer": "b",
+            "explicacion": "La balanza analítica mide masa con alta precisión, usando comparación de pesos."
+        },
+        {
+            "question": "¿Cuál es la unidad SI de intensidad luminosa?",
+            "options": [
+                "Lumen",
+                "Candela",
+                "Lux",
+                "Watt",
+                "Voltio"
+            ],
+            "answer": "b",
+            "explicacion": "La candela (cd) es la unidad base del SI para intensidad luminosa."
+        },
+        {
+            "question": "¿Qué magnitud física tiene como unidad el watt?",
+            "options": [
+                "Energía",
+                "Potencia",
+                "Fuerza",
+                "Presión",
+                "Carga eléctrica"
+            ],
+            "answer": "b",
+            "explicacion": "El watt (W) mide potencia: 1 W = 1 J/s."
+        },
+        {
+            "question": "¿Qué sistema de unidades utiliza el centímetro, gramo y segundo como base?",
+            "options": [
+                "SI",
+                "CGS",
+                "Inglés",
+                "Métrico decimal",
+                "Técnico"
+            ],
+            "answer": "b",
+            "explicacion": "El sistema CGS (Centímetro-Gramo-Segundo) fue precursor del SI."
+        },
+        {
+            "question": "¿Qué magnitud tiene como unidad el coulomb?",
+            "options": [
+                "Corriente eléctrica",
+                "Resistencia eléctrica",
+                "Carga eléctrica",
+                "Potencial eléctrico",
+                "Capacitancia"
+            ],
+            "answer": "c",
+            "explicacion": "El coulomb (C) es la unidad de carga eléctrica: 1 C = 1 A·s."
+        },
+        {
+            "question": "¿Qué instrumento mide la diferencia de potencial eléctrico?",
+            "options": [
+                "Amperímetro",
+                "Ohmímetro",
+                "Voltímetro",
+                "Galvanómetro",
+                "Termopar"
+            ],
+            "answer": "c",
+            "explicacion": "El voltímetro mide voltaje (diferencia de potencial), unidad voltio (V)."
+        },
+        {
+            "question": "¿Qué magnitud se mide en teslas?",
+            "options": [
+                "Fuerza",
+                "Campo magnético",
+                "Frecuencia",
+                "Inductancia",
+                "Energía"
+            ],
+            "answer": "b",
+            "explicacion": "El tesla (T) es la unidad de densidad de flujo magnético: 1 T = 1 Wb/m²."
+        },
+        {
+            "question": "¿Qué representa el prefijo 'kilo-' en el SI?",
+            "options": [
+                "10²",
+                "10³",
+                "10⁶",
+                "10⁻³",
+                "10⁻⁶"
+            ],
+            "answer": "b",
+            "explicacion": "El prefijo kilo- indica 10³ (ej: 1 kg = 1000 g)."
+        },
+        {
+            "question": "¿Qué magnitud es adimensional?",
+            "options": [
+                "Ángulo plano",
+                "Fuerza",
+                "Velocidad",
+                "Masa",
+                "Temperatura"
+            ],
+            "answer": "a",
+            "explicacion": "El radián (unidad de ángulo) es adimensional: relación entre dos longitudes."
         }
-    }
+    ]
 }
