@@ -37,16 +37,16 @@
             "explicacion": "La longitud es una magnitud escalar, solo requiere magnitud para ser descrita."
         },
         {
-            "question": "¿Qué magnitud se mide en amperios?",
+            "question": "¿Qué magnitud derivada equivale a kg·m²/s²?",
             "options": [
-                "Voltaje",
-                "Corriente eléctrica",
-                "Potencia eléctrica",
-                "Diferencia de potencial",
-                "Resistencia eléctrica"
+                "Fuerza",
+                "Energía",
+                "Potencia",
+                "Presión",
+                "Trabajo"
             ],
-            "answer": "b",
-            "explicacion": "El amperio (A) es la unidad base del SI para intensidad de corriente eléctrica."
+            "answer": "e",
+            "explicacion": "kg·m²/s² = (kg·m/s²)·m = N·m = Joule (trabajo)"
         },
         {
             "question": "¿Qué propiedad física se mide en joules?",
@@ -94,7 +94,7 @@
                 "la masa y el volumen"
             ],
             "answer": "e",
-            "explicacion": "Densidad = Masa/Volumen (ρ = m/V), unidad kg/m³ en SI."
+            "explicacion": "Densidad = Masa/Volumen (μ = m/V), unidad kg/m³ en SI."
         },
         {
             "question": "¿Qué magnitud se describe como la cantidad de materia en un objeto?",
@@ -217,16 +217,16 @@
             "explicacion": "La candela (cd) es la unidad base del SI para intensidad luminosa."
         },
         {
-            "question": "¿Qué magnitud física tiene como unidad el watt?",
+            "question": "¿Qué magnitud es siempre vertical en la superficie terrestre?",
             "options": [
-                "Energía",
-                "Potencia",
-                "Fuerza",
-                "Presión",
-                "Carga eléctrica"
+                "Fuerza normal",
+                "Fuerza de tensión",
+                "Peso",
+                "Aceleración centrípeta",
+                "Velocidad angular"
             ],
-            "answer": "b",
-            "explicacion": "El watt (W) mide potencia: 1 W = 1 J/s."
+            "answer": "c",
+            "explicacion": "El peso (P = m·g) siempre actúa hacia el centro de la Tierra."
         },
         {
             "question": "¿Qué sistema de unidades utiliza el centímetro, gramo y segundo como base?",
@@ -241,40 +241,40 @@
             "explicacion": "El sistema CGS (Centímetro-Gramo-Segundo) fue precursor del SI."
         },
         {
-            "question": "¿Qué magnitud tiene como unidad el coulomb?",
+            "question": "En un movimiento rectilíneo uniforme (MRU), ¿qué magnitud permanece constante?",
             "options": [
-                "Corriente eléctrica",
-                "Resistencia eléctrica",
-                "Carga eléctrica",
-                "Potencial eléctrico",
-                "Capacitancia"
+                "Aceleración",
+                "Posición",
+                "Velocidad",
+                "Desplazamiento",
+                "Fuerza resultante"
             ],
             "answer": "c",
-            "explicacion": "El coulomb (C) es la unidad de carga eléctrica: 1 C = 1 A·s."
+            "explicacion": "En MRU: velocidad constante → aceleración = 0."
         },
         {
-            "question": "¿Qué instrumento mide la diferencia de potencial eléctrico?",
+            "question": "El conjunto que contiene solamente unidades fundamentales del sistema internacional es:",
             "options": [
-                "Amperímetro",
-                "Ohmímetro",
-                "Voltímetro",
-                "Galvanómetro",
-                "Termopar"
-            ],
-            "answer": "c",
-            "explicacion": "El voltímetro mide voltaje (diferencia de potencial), unidad voltio (V)."
-        },
-        {
-            "question": "¿Qué magnitud se mide en teslas?",
-            "options": [
-                "Fuerza",
-                "Campo magnético",
-                "Frecuencia",
-                "Inductancia",
-                "Energía"
+                "unidad técnica de masa; masa; segundo; metro",
+                "kilogramo; segundo; metro",
+                "kilogramofuerza; segundo; metro",
+                "kilogramofuerza; unidad técnica de masa; segundo",
+                "kilogramofuerza; unidad técnica de masa; metro"
             ],
             "answer": "b",
-            "explicacion": "El tesla (T) es la unidad de densidad de flujo magnético: 1 T = 1 Wb/m²."
+            "explicacion": "Las unidades fundamentales son kilogramo (masa), metro (longitud) y segundo (tiempo)"
+        },
+        {
+            "question": "Indica el conjunto de magnitudes vectoriales NO fundamentales del SI:",
+            "options": [
+                "Potencia, intensidad luminosa, peso",
+                "Temperatura, intensidad de la corriente, tiempo",
+                "Peso, temperatura, longitud",
+                "Trabajo, potencia longitud",
+                "Peso, velocidad, fuerza"
+            ],
+            "answer": "e",
+            "explicacion": "Peso, velocidad y fuerza son magnitudes vectoriales pero no fundamentales en el Sistema Internacional."
         },
         {
             "question": "¿Qué representa el prefijo 'kilo-' en el SI?",
@@ -289,16 +289,16 @@
             "explicacion": "El prefijo kilo- indica 10³ (ej: 1 kg = 1000 g)."
         },
         {
-            "question": "¿Qué magnitud es adimensional?",
+            "question": "Es una magnitud vectorial y fudamental en el SI:",
             "options": [
-                "Ángulo plano",
-                "Fuerza",
-                "Velocidad",
+                "Londitud",
+                "Temperatura",
+                "Peso",
                 "Masa",
-                "Temperatura"
+                "Tiempo"
             ],
             "answer": "a",
-            "explicacion": "El radián (unidad de ángulo) es adimensional: relación entre dos longitudes."
+            "explicacion": "Longitud es una de las 7 magnitudes fundamentales del SI y es también vectorial"
         }
     ]
 }
