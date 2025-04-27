@@ -16,13 +16,13 @@
             "question": "¿Cuál de las siguientes opciones no representa una cantidad del SI?",
             "options": [
                 "newton",
-                "hertz",
+                "metro",
                 "joule",
-                "pascal",
-                "dina"
+                "segundo",
+                "gramos"
             ],
             "answer": "e",
-            "explicacion": "La dina es unidad del sistema CGS (1 N = 10^5 dinas), no pertenece al Sistema Internacional."
+            "explicacion": "El gramo es una unidad del sistema CGS (1 kg = 1000 g), no pertenece al Sistema Internacional."
         },
         {
             "question": "De las siguientes magnitudes, aquella que no es exclusivamente vectorial es: ",
