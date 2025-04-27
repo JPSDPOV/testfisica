@@ -85,18 +85,6 @@
             "explicacion": "A[x²] = C → [x] = T⁻¹/²; B[y³] = C → [y] = M⁻¹/³ → [x/y] = M¹/³T⁻¹/²"
         },
         {
-            "question": "Hallar unidades de A en E = AP/D + BC³. Donde E: fuerza; P: presión; D: densidad.",
-            "options": [
-                "kg/m",
-                "kg·m",
-                "kg·m/s",
-                "kg·m²",
-                "kg/m²"
-            ],
-            "answer": "a",
-            "explicacion": "[A] = [E][D]/[P] = (MLT⁻²)(ML⁻³)/(ML⁻¹T⁻²) = ML⁻¹ → kg/m"
-        },
-        {
             "question": "¿Qué magnitud tiene dimensión ML²T⁻²?",
             "options": [
                 "Fuerza",
@@ -107,18 +95,6 @@
             ],
             "answer": "c",
             "explicacion": "Energía: ML²T⁻² (trabajo = fuerza × distancia)"
-        },
-        {
-            "question": "¿Qué magnitud tiene dimensión ML⁻¹T⁻²?",
-            "options": [
-                "Densidad",
-                "Presión",
-                "Fuerza",
-                "Energía",
-                "Potencia"
-            ],
-            "answer": "b",
-            "explicacion": "Presión = fuerza/área → MLT⁻²/L² = ML⁻¹T⁻²"
         },
         {
             "question": "¿Qué magnitud tiene dimensión LT⁻¹?",
@@ -163,71 +139,88 @@
             "explicacion": "[F] = [Potencia]/[Velocidad] = (ML²T⁻³)/(LT⁻¹) = MLT⁻²"
         },
         {
-            "question": "¿Qué magnitud es adimensional? (Velocidad × Tiempo)/Distancia",
-            "options": ["1 (adimensional)", "LT⁻¹", "T", "L²T⁻²", "MLT⁻²"],
+            "question": "Si el área es largo × ancho, ¿cuál es su ecuación dimensional?",
+            "options": ["L²", "ML²", "LT⁻¹", "T²", "ML"],
             "answer": "a",
-            "explicacion": "(LT⁻¹ × T)/L = L/L = 1 → Sin dimensiones"
+            "explicacion": "Área = L × L = L²"
         },
         {
-            "question": "Si [trabajo] = [calor], ¿qué magnitud no tiene unidades?",
-            "options": ["Equivalente mecánico", "Densidad", "Fuerza", "Aceleración", "Volumen"],
+            "question": "¿Qué dimensión tiene el volumen?",
+            "options": ["L³", "ML³", "LT⁻²", "ML⁻³", "T³"],
             "answer": "a",
-            "explicacion": "J = Q/W → [J] = [Q]/[W] = 1 (sin dimensiones)"
+            "explicacion": "Volumen = L × L × L = L³"
         },
         {
-            "question": "¿Qué magnitud representa Q = I·t? (I: corriente; t: tiempo)",
-            "options": ["Carga eléctrica", "Resistencia", "Potencia", "Energía", "Frecuencia"],
+            "question": "La velocidad se calcula como distancia/tiempo. ¿Cuál es su dimensión?",
+            "options": ["LT⁻¹", "L²T", "MLT⁻¹", "MT⁻²", "L/T²"],
             "answer": "a",
-            "explicacion": "Carga = Corriente × Tiempo → [Q] = IT"
+            "explicacion": "[v] = [d]/[t] = L/T = LT⁻¹"
         },
         {
-            "question": "La energía cinética (Ec = ½mv²) tiene dimensión:",
-            "options": ["ML²T⁻²", "MLT⁻¹", "MT⁻²", "ML⁻¹T⁻²", "LT⁻¹"],
+            "question": "Si aceleración = cambio de velocidad/tiempo, ¿su dimensión es?",
+            "options": ["LT⁻²", "L²T⁻¹", "MLT⁻²", "MT⁻¹", "L²/T"],
             "answer": "a",
-            "explicacion": "[Ec] = [m][v²] = M(LT⁻¹)² = ML²T⁻²"
+            "explicacion": "[a] = [Δv]/[t] = (LT⁻¹)/T = LT⁻²"
         },
         {
-            "question": "En F = kx (Ley de Hooke), ¿qué dimensión tiene k?",
-            "options": ["MT⁻²", "MLT⁻²", "ML⁻¹T⁻²", "ML²T⁻²", "LT⁻¹"],
+            "question": "¿Qué dimensión tiene la densidad? (masa/volumen)",
+            "options": ["ML⁻³", "ML³", "MLT⁻²", "LT⁻¹", "M²L"],
             "answer": "a",
-            "explicacion": "[k] = [F]/[x] = (MLT⁻²)/L = MT⁻²"
+            "explicacion": "[ρ] = [m]/[V] = M/L³ = ML⁻³"
         },
         {
-            "question": "Velocidad angular (ω = θ/t) × tiempo da:",
-            "options": ["Ángulo (adimensional)", "Aceleración", "Frecuencia", "Longitud", "Velocidad lineal"],
+            "question": "En A = B/C, si [B] = ML y [C] = T², ¿qué dimensión tiene A?",
+            "options": ["MLT⁻²", "ML²T²", "M⁻¹L⁻¹T²", "LT⁻¹", "ML/T"],
             "answer": "a",
-            "explicacion": "[ω][t] = (T⁻¹)(T) = T⁰ → Adimensional (radianes)"
+            "explicacion": "[A] = [B]/[C] = ML/T² = MLT⁻²"
         },
         {
-            "question": "En P = ρgh, ¿qué dimensión tiene h? (ρ: densidad; g: aceleración)",
-            "options": ["L", "ML⁻³", "MT⁻²", "MLT⁻²", "T⁻¹"],
+            "question": "(Velocidad × Tiempo)/Distancia resulta en:",
+            "options": ["1 (sin dimensiones)", "L", "T⁻¹", "LT", "ML"],
             "answer": "a",
-            "explicacion": "[h] = [P]/([ρ][g]) = (ML⁻¹T⁻²)/(ML⁻³ × LT⁻²) = L"
+            "explicacion": "(LT⁻¹ × T)/L = L/L = 1"
         },
         {
-            "question": "La ecuación E = mc² es dimensionalmente homogénea. Hallar [E]",
-            "options": ["ML²T⁻²", "MLT⁻²", "MT⁻²", "ML⁻¹T⁻²", "LT⁻¹"],
+            "question": "Si fuerza = masa × aceleración, ¿su dimensión es?",
+            "options": ["MLT⁻²", "ML²T⁻²", "MT⁻²", "LT⁻¹", "M²L"],
             "answer": "a",
-            "explicacion": "[E] = [m][c²] = M(LT⁻¹)² = ML²T⁻²"
+            "explicacion": "[F] = [m][a] = M × LT⁻² = MLT⁻²"
         },
         {
-            "question": "Torque (τ = F × d) tiene la misma dimensión que:",
-            "options": ["Trabajo", "Fuerza", "Potencia", "Presión", "Densidad"],
+            "question": "¿Qué dimensión tiene la presión? (fuerza/área)",
+            "options": ["ML⁻¹T⁻²", "MLT⁻²", "ML²T⁻²", "LT⁻¹", "M/L³"],
             "answer": "a",
-            "explicacion": "[τ] = [F][d] = MLT⁻² × L = ML²T⁻² (igual al trabajo)"
+            "explicacion": "[P] = [F]/[A] = MLT⁻²/L² = ML⁻¹T⁻²"
         },
         {
-            "question": "Si v² = 2ax, hallar [a] (v: velocidad; x: distancia)",
-            "options": ["LT⁻²", "LT⁻¹", "L²T⁻²", "MLT⁻²", "MT⁻²"],
+            "question": "Si perímetro = suma de lados, ¿su dimensión es?",
+            "options": ["L", "L²", "ML", "T", "LT⁻¹"],
             "answer": "a",
-            "explicacion": "[a] = [v²]/[x] = (L²T⁻²)/L = LT⁻²"
+            "explicacion": "Perímetro es medida de longitud → L"
         },
         {
-            "question": "En V = IR (Ley de Ohm), ¿qué dimensión tiene R?",
-            "options": ["ML²T⁻³I⁻²", "MLT⁻²", "ML⁻³", "LT⁻¹", "MT⁻²"],
+            "question": "¿Qué dimensión tiene el tiempo?",
+            "options": ["T", "LT⁻¹", "ML", "ML²T⁻²", "M²L"],
             "answer": "a",
-            "explicacion": "[R] = [V]/[I] = (ML²T⁻³I⁻¹)/I = ML²T⁻³I⁻²"
+            "explicacion": "El tiempo es magnitud fundamental → T"
+        },
+        {
+            "question": "Masa × aceleración = ?",
+            "options": ["MLT⁻²", "ML²T⁻²", "MT⁻²", "LT⁻¹", "M²L"],
+            "answer": "a",
+            "explicacion": "[m][a] = M × LT⁻² = MLT⁻² (Fuerza)"
+        },
+        {
+            "question": "Si 1 minuto = 60 segundos, ¿qué relación dimensional tienen?",
+            "options": ["Igual dimensión (T)", "Diferente dimensión", "L/T", "MLT", "T²"],
+            "answer": "a",
+            "explicacion": "Ambos son tiempos → misma dimensión T"
+        },
+        {
+            "question": "Velocidad × tiempo = ?",
+            "options": ["L (distancia)", "LT⁻¹", "L²T", "MLT⁻²", "T²"],
+            "answer": "a",
+            "explicacion": "[v][t] = LT⁻¹ × T = L"
         }
-
     ]
 }
