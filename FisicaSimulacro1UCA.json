@@ -175,34 +175,34 @@
                 "trabajo",
                 "fuerza",
                 "peso",
-                "campo eléctrico"
+                "aceleración"
             ],
             "answer": "b",
             "explicacion": "El trabajo es escalar (producto escalar de fuerza y desplazamiento)."
         },
         {
-            "question": "¿Qué magnitud derivada se obtiene al dividir fuerza entre área?",
+            "question": "¿Qué magnitud derivada se obtiene al dividir fuerza entre aceleración?",
             "options": [
                 "Trabajo",
-                "Presión",
-                "Densidad",
+                "Masa",
+                "Peso",
                 "Velocidad",
-                "Potencia"
+                "Energía"
             ],
             "answer": "b",
-            "explicacion": "Presión = Fuerza/Área (P = F/A), unidad pascal (Pa) en SI."
+            "explicacion": "Masa = Fuerza/Aceleración (m = F/a), kilogramo (kg) en SI."
         },
         {
-            "question": "¿Qué instrumento se utiliza para medir masas con precisión en laboratorio?",
+            "question": "¿Qué característica define a una magnitud escalar?",
             "options": [
-                "Dinamómetro",
-                "Balanza analítica",
-                "Cronómetro",
-                "Termómetro",
-                "Calibrador Vernier"
+                "Requiere dirección para su descripción",
+                "Se representa con un solo valor numérico",
+                "Sigue reglas de adición vectorial",
+                "Depende del sistema de coordenadas",
+                "Es siempre adimensional"
             ],
             "answer": "b",
-            "explicacion": "La balanza analítica mide masa con alta precisión, usando comparación de pesos."
+            "explicacion": "Las magnitudes escalares se describen completamente con un valor y su unidad (ej: masa, tiempo)."
         },
         {
             "question": "¿Cuál es la unidad SI de intensidad luminosa?",
