@@ -2,75 +2,291 @@
     "questions": [
         {
             "question": "La resultante de dos fuerzas perpendiculares tiene una intensidad de 25 N. Si una de las fuerzas es de 15 N, la otra fuerza vale:",
-            "options": ["10 N", "15 N", "20 N", "25 N", "30 N"],
+            "options": [
+                "10 N",
+                "15 N",
+                "20 N",
+                "25 N",
+                "30 N"
+            ],
             "answer": "c",
             "explicacion": "Aplicando Pitágoras: 25² = 15² + F² → F = √(625 - 225) = √400 = 20 N"
         },
         {
             "question": "Dos fuerzas de 5 N y 7 N, respectivamente, actúan sobre un punto material. La intensidad de la fuerza resultante es",
-            "options": ["Igual a 12", "Menor que 5 N", "Mayor que 5 N y menor que 12 N", "Comprendida entre 2 N y 12 N", "Igual a 2 N"],
+            "options": [
+                "Igual a 12",
+                "Menor que 5 N",
+                "Mayor que 5 N y menor que 12 N",
+                "Comprendida entre 2 N y 12 N",
+                "Igual a 2 N"
+            ],
             "answer": "d",
             "explicacion": "Rango de resultante: |7-5| ≤ R ≤ 7+5 → 2 N ≤ R ≤ 12 N"
         },
         {
             "question": "Si el módulo de la suma de dos vectores A y B se obtiene por la expresión A - B, entonces el ángulo entre ellos vale:",
-            "options": ["60°", "120°", "180°", "0°", "90°"],
+            "options": [
+                "60°",
+                "120°",
+                "180°",
+                "0°",
+                "90°"
+            ],
             "answer": "c",
             "explicacion": "La igualdad |A + B| = A - B solo se cumple cuando los vectores son colineales y opuestos (θ=180°)"
         },
         {
             "question": "Los vectores A y B, ortogonales, están en relación 3:4. Si el módulo del vector resultante es de 10 unidades. El vector de menor valor vale:",
-            "options": ["16 unidades", "6 unidades", "4 unidades", "8 unidades", "10 unidades"],
+            "options": [
+                "16 unidades",
+                "6 unidades",
+                "4 unidades",
+                "8 unidades",
+                "10 unidades"
+            ],
             "answer": "b",
             "explicacion": "Sean 3k y 4k los vectores. Por Pitágoras: (3k)² + (4k)² = 10² → k=2 → Menor vector: 3*2=6"
         },
         {
             "question": "Dos vectores están en relación 1:2. El módulo de su resultante es el doble del módulo del vector menor, entonces el ángulo entre los vectores vale aproximadamente:",
-            "options": ["140°", "30°", "104°", "135°", "45°"],
+            "options": [
+                "140°",
+                "30°",
+                "104°",
+                "135°",
+                "45°"
+            ],
             "answer": "c",
             "explicacion": "Usando ley de cosenos: (2a)² = a² + (2a)² + 2(a)(2a)cosθ → θ≈104°"
         },
         {
             "question": "El ángulo formado por dos vectores M y N es de 120°. El módulo del vector M es de 5 N y el módulo del vector N es de 8 N. Calcular el ángulo que la resultante forma con el vector de menor módulo.",
-            "options": ["55,6°", "90°", "86,3°", "64,4°", "75°"],
+            "options": [
+                "55,6°",
+                "90°",
+                "86,3°",
+                "64,4°",
+                "75°"
+            ],
             "answer": "d",
             "explicacion": "Resultante R=√(5²+8²+2*5*8*cos120°)=7 N. Ángulo con vector menor: tanα=(8*sen120°)/(5+8*cos120°)≈64.4°"
         },
         {
             "question": "Las magnitudes de dos vectores son 7 N y 8 N. Ambos dan como origen a un vector de magnitud 13 N. Hallar el ángulo que forman los vectores.",
-            "options": ["60°", "30°", "53°", "45°", "37°"],
+            "options": [
+                "60°",
+                "30°",
+                "53°",
+                "45°",
+                "37°"
+            ],
             "answer": "a",
             "explicacion": "Aplicando ley de cosenos: 13²=7²+8²+2*7*8*cosθ → cosθ=0.5 → θ=60°"
         },
         {
             "question": "La resultante de dos vectores es de 34 unidades cuando ambos forman 0° y de 14 unidades cuando forman 180°. Calcular la resultante cuando los vectores son perpendiculares.",
-            "options": ["13", "34", "17", "41", "26"],
+            "options": [
+                "13",
+                "34",
+                "17",
+                "41",
+                "26"
+            ],
             "answer": "e",
             "explicacion": "Resolviendo: A+B=34 y A-B=14 → A=24, B=10. Resultante ⊥: √(24²+10²)=26"
         },
         {
             "question": "Si la suma máxima de dos vectores es 28 u y los módulos de los vectores están en relación 4:3. Calcula el módulo del mayor.",
-            "options": ["4 u", "8 u", "16 u", "48 u", "32 u"],
+            "options": [
+                "4 u",
+                "8 u",
+                "16 u",
+                "48 u",
+                "32 u"
+            ],
             "answer": "c",
             "explicacion": "4k + 3k = 28 → k=4 → Mayor vector: 4*4=16"
         },
         {
             "question": "Dos vectores cuando forman 90° tienen como resultante 10 N. La suma máxima de ambos vectores es 14. Hallar el módulo de la suma mínima, sabiendo que los vectores son números naturales y pares consecutivos.",
-            "options": ["8 N", "4 N", "0 N", "2 N", "6 N"],
+            "options": [
+                "8 N",
+                "4 N",
+                "0 N",
+                "2 N",
+                "6 N"
+            ],
             "answer": "d",
             "explicacion": "Vectores pares consecutivos: 8 y 6. Suma mínima=8-6=2 N"
         },
         {
             "question": "Los vectores A y B tienen módulos iguales y el vector suma de ellos tiene de módulo a la mitad del módulo de los vectores. ¿Cuál es el valor aproximado del ángulo que forman los vectores para cumplir esa condición?.",
-            "options": ["151°", "138,6°", "180°", "90°", "29°"],
+            "options": [
+                "151°",
+                "138,6°",
+                "180°",
+                "90°",
+                "29°"
+            ],
             "answer": "a",
             "explicacion": "(A/2)² = 2A² + 2A²cosθ → cosθ=-7/8 → θ≈151°"
         },
         {
             "question": "Una persona sale de su casa en bicicleta, avanza al norte 15 km, luego va al este 5 km y por último 3 km al sur. ¿A cuántos km se encuentra su casa respecto a su posición final?",
-            "options": ["12 km", "13 km", "14 km", "15 km", "16 km"],
+            "options": [
+                "12 km",
+                "13 km",
+                "14 km",
+                "15 km",
+                "16 km"
+            ],
             "answer": "b",
             "explicacion": "Componentes: Norte=15-3=12 km, Este=5 km. Distancia=√(12²+5²)=13 km"
-        }        
+        },
+        {
+            "question": "El módulo de la diferencia entre dos vectores de módulos iguales respectivamente iguales a 3 u y 5 u es un vector de módulo igual a \\(\\sqrt{19} \\) u. El módulo de la suma de dichos vectores es igual a:",
+            "options": [
+                "\\(8 \\) u",
+                "\\(\\sqrt{34} \\) u",
+                "\\(7 \\) u",
+                "\\(2 \\) u",
+                "\\(3 \\) u"
+            ],
+            "answer": "c",
+            "explicacion": "Usando: |A-B|² + |A+B|² = 2(|A|² + |B|²) → 19 + S² = 2(9+25) → S=7u"
+        },
+        {
+            "question": "Los módulos de la diferencia y de la suma de dos vectores de módulos iguales están en relación \\(\\sqrt{3}:3 \\). El ángulo que forman entre sí los vectores es igual a:",
+            "options": [
+                "30°",
+                "60°",
+                "120°",
+                "150°",
+                "36,9°"
+            ],
+            "answer": "b",
+            "explicacion": "Para vectores iguales: |A-B|/|A+B|=√3/3=1/√3=sen(θ/2) → θ=60°"
+        },
+        {
+            "question": "Dos vectores cuyos módulos están en relación 3:5 forman un ángulo de 120° entre ellos y el vector diferencia tiene un módulo igual a 28 u. El módulo del vector menor es igual a:",
+            "options": [
+                "10 u",
+                "4 u",
+                "6 u",
+                "12 u",
+                "20 u"
+            ],
+            "answer": "d",
+            "explicacion": "Sea 3k y 5k: (5k-3k)² = 28² = (3k)² + (5k)² - 2*3k*5k*cos120° → k=4 → Menor=12u"
+        },
+        {
+            "question": "El vector suma de dos vectores \\(\\vec{V_{1}} \\) y \\(\\vec{V_{2}} \\), forma con cada uno de ellos un ángulo de 30°. Si el módulo de la diferencia es igual a 12 u, el módulo del vector \\(\\vec{V_{2}} \\) es igual a:",
+            "options": [
+                "\\(6 \\) u",
+                "\\(12\\sqrt{3} \\) u",
+                "\\(4\\sqrt{3} \\) u",
+                "\\(12 \\) u",
+                "\\(6\\sqrt{3} \\) u"
+            ],
+            "answer": "d",
+            "explicacion": "Triángulo isósceles con ángulos 30°-30°-120°. Ley de senos: 12/sen30°=V2/sen120°→V2=12u"
+        },
+        {
+            "question": "Dos vectores de módulos iguales a 15 u, no podrán dar un vector diferencia de módulo:",
+            "options": [
+                "20 u",
+                "30 u",
+                "cero",
+                "10 u",
+                "35 u"
+            ],
+            "answer": "e",
+            "explicacion": "Máxima diferencia=15+15=30u. 35u es imposible"
+        },
+        {
+            "question": "Dos vectores \\(\\vec{A} \\) y \\(\\vec{B} \\), de módulos A = B, forman entre sí un ángulo de 60°. El módulo del vector diferencia es:",
+            "options": [
+                "igual a A + B",
+                "mayor que A + B",
+                "menor que A + B",
+                "igual que los módulos de A y B",
+                "dos opciones son correctas"
+            ],
+            "answer": "d",
+            "explicacion": "|A-B|=√(A²+A²-2A²cos60°)=A (igual que los módulos originales)"
+        },
+        {
+            "question": "Al restar 2 vectores opuestos de módulos iguales a x se obtiene:",
+            "options": [
+                "0",
+                "x\\(\\sqrt{2} \\)",
+                "x\\(\\sqrt{3} \\)",
+                "x",
+                "2x"
+            ],
+            "answer": "e",
+            "explicacion": "A - (-A) = 2A → módulo=2x"
+        },
+        {
+            "question": "La máxima suma de dos vectores es de 22 u y la mínima es de 4 u. El módulo de la diferencia cuando los vectores formen entre sí un ángulo de 90° es igual a:",
+            "options": [
+                "\\(\\sqrt{250} \\)",
+                "\\(13 \\)",
+                "\\(9 \\)",
+                "\\(5\\sqrt{10} \\)",
+                "dos opciones son correctas"
+            ],
+            "answer": "e",
+            "explicacion": "A=13, B=9. |A-B|=√(13²+9²)=√250=5√10. Ambas opciones d y a son correctas"
+        },
+        {
+            "question": "Para dos vectores \\(\\vec{P} \\) y \\(\\vec{Q} \\), el módulo de la diferencia es \\(\\sqrt{P^{2} +Q^{2}} \\) cuando el ángulo entre ellos vale:",
+            "options": [
+                "90°",
+                "\\(\\pi \\) rad",
+                "60°",
+                "\\(2\\pi \\) rad",
+                "dos opciones son correctas"
+            ],
+            "answer": "a",
+            "explicacion": "Cuando θ=90°: |P-Q|=√(P²+Q²) por teorema de Pitágoras"
+        },
+        {
+            "question": "Para los vectores A (3, 4) y B (-3. -5), su diferencia vale:",
+            "options": [
+                "(0, -1)",
+                "(6, 9)",
+                "(-9, -20)",
+                "(9, 20)",
+                "(0, 1)"
+            ],
+            "answer": "b",
+            "explicacion": "A - B = (3-(-3), 4-(-5)) = (6,9)"
+        },
+        {
+            "question": "Si las componentes del vector sustraendo son A(2, 3) y las componentes del vector minuendo son B(x, y), para que la diferencia sea vertical, se cumple:",
+            "options": [
+                "x = 2",
+                "x = -2",
+                "y = 3",
+                "y = -3",
+                "faltan datos para resolver el ejercicio"
+            ],
+            "answer": "a",
+            "explicacion": "B - A debe tener componente x=0 → x-2=0 → x=2"
+        },
+        {
+            "question": "Sabiendo que \\(\\vec{V_{1} } \\) es el cuádruple de \\(\\vec{V_{2} } \\). ¿Qué ángulo deben formar los vectores para que la diferencia entre \\(\\vec{V_{1} } \\) y \\(\\vec{V_{2} } \\) sea el triple de \\(\\vec{V_{2} } \\)",
+            "options": [
+                "0°",
+                "45°",
+                "90°",
+                "180°",
+                "60°"
+            ],
+            "answer": "a",
+            "explicacion": "4V2 - V2=3V2 → solo posible si θ=0° (misma dirección)"
+        }
     ]
 }
